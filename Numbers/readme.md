@@ -17,6 +17,6 @@ console.log(convertToNumber("abc")); // NaN
 `Topic covered` 
 - Number methods i.e. Number(), isNan()
 
-`Hints` - [isNaN()](https://www.w3schools.com/jsref/jsref_isnan.asp), [JS Numbers](https://www.w3schools.com/jsref/jsref_number.asp)
+`Hints` - [isNaN()](https://www.w3schools.com/jsref/jsref_isnan.asp){:target="_blank"}, [JS Numbers](https://www.w3schools.com/jsref/jsref_number.asp){:target="_blank"}
 
 ---
