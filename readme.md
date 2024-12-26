@@ -1,3 +1,3 @@
 # JS Coding Challenges
 
-[Numbers]('./Numbers/readme.md')
+[Numbers](/Numbers/)
