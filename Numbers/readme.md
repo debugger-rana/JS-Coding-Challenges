@@ -14,7 +14,7 @@ function convertToNumber(str) {
 console.log(convertToNumber("123")); // 123
 console.log(convertToNumber("abc")); // NaN
 ```
-`Topic covered` 
+`Topics covered` 
 - Number methods i.e. Number(), isNan()
 
 `Hints` - [isNaN()](https://www.w3schools.com/jsref/jsref_isnan.asp), [JS Numbers](https://www.w3schools.com/jsref/jsref_number.asp)
