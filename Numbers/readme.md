@@ -65,7 +65,6 @@ function roundNumber(num) {
 console.log(roundNumber(4.3)); // 4
 console.log(roundNumber(4.7)); // 5
 
-  
 ```
 
 `Topics Covered:`
@@ -94,8 +93,8 @@ console.log(roundToNearestInteger(-1.5)); // -1
 **Explanation:**
 
 
-- -Math.round(num) rounds the number to the nearest integer.
--If the decimal part is 0.5 or greater, it rounds up.
+- Math.round(num) rounds the number to the nearest integer.
+- If the decimal part is 0.5 or greater, it rounds up.
 Otherwise, it rounds down.
   
 </details>
@@ -118,8 +117,6 @@ console.log(formatLargeNumber(1500));  // Output: "1.5K"
 console.log(formatLargeNumber(3500000)); // Output: "3.5M"
 console.log(formatLargeNumber(950)); // Output: "950"
 
-
-  
 ```
 
 `Topics Covered:`
@@ -153,29 +150,18 @@ console.log(formatLargeNumber(1500));  // Output: "1.5K"
 console.log(formatLargeNumber(3500000)); // Output: "3.5M"
 console.log(formatLargeNumber(950)); // Output: "950"
 
-  
 ```
 
 **Explanation:**
 
 
-- 1. *Check the Range of the Number:*  
-   - If the number is *≥ 1,000,000*:  
-     - Divide the number by 1,000,000 to convert it into millions.  
-     - Use .toFixed(1) to round it to *1 decimal place*.  
-     - Append "M" to indicate millions.  
-   - If the number is *≥ 1,000*:  
-     - Divide the number by 1,000 to convert it into thousands.  
-     - Use .toFixed(1) to round it to *1 decimal place*.  
-     - Append "K" to indicate thousands.  
-   - If the number is *< 1,000*, just return it as-is.  
-
-2. *String Conversion:*  
-   - Any number that doesn't meet the "K" or "M" conditions is converted directly to a string using .toString().  
-
-3. *Edge Cases:*  
-   - The function handles numbers less than 1,000 without adding "K" or "M".  
-   - The rounding ensures clean and readable output like 1.5K instead of 1.500K.  
+- Check the range of the number and format it based on its value.
+- If the number is ≥ 1,000,000, convert it to millions, round to 1 decimal place, and append "M".
+- ßIf the number is ≥ 1,000, convert it to thousands, round to 1 decimal place, and append "K".
+- ßIf the number is < 1,000, return it as-is.
+- ßConvert numbers not meeting the "K" or "M" conditions to a string using .toString().
+- ßHandle edge cases for numbers less than 1,000 without adding "K" or "M".
+- ßEnsure rounding provides clean and readable output like 1.5K instead of 1.500K.
 
   
 </details>
@@ -197,9 +183,7 @@ function calculateBulkDiscount(price, quantity, discountThreshold, discountRate)
 console.log(calculateBulkDiscount(50, 15, 10, 10)); // Output: 675
 console.log(calculateBulkDiscount(50, 5, 10, 10));  // Output: 250
 console.log(calculateBulkDiscount(100, 20, 15, 20)); // Output: 1600
-
-
-  
+ 
 ```
 
 `Topics Covered:`
@@ -232,33 +216,20 @@ function calculateBulkDiscount(price, quantity, discountThreshold, discountRate)
 console.log(calculateBulkDiscount(50, 15, 10, 10)); // Output: 675
 console.log(calculateBulkDiscount(50, 5, 10, 10));  // Output: 250
 console.log(calculateBulkDiscount(100, 20, 15, 20)); // Output: 1600
-
-
-  
+ 
 ```
 
 **Explanation:**
 
 
-- 1. *Check the Range of the Quantity:*  
-   - If the quantity is greater than or equal to the discountThreshold:  
-     - Calculate the discounted price using the formula:  
-       Discounted Price = price × (1 − discountRate / 100)  
-     - Multiply the discounted price by the quantity to get the total cost.  
-   - If the quantity is less than the discountThreshold:  
-     - No discount is applied.  
-     - Multiply the original price by the quantity to calculate the total cost.  
-
-2. *String Conversion:*  
-   - Any calculation involving prices and quantities is automatically handled as numbers, so no explicit string conversion is required here.  
-
-3. *Edge Cases:*  
-   - If the quantity is less than or equal to the discountThreshold, the function ensures no discount is applied.  
-   - If the discountRate is 0, the original price is used without any changes.  
-   - The function handles both large numbers and high discount percentages gracefully, ensuring accuracy.  
-
-4. *Rounding and Readability:*  
-   - Rounding ensures that the calculated discount and total cost are clean and readable, avoiding unnecessary decimal places.
+- Check the range of the quantity and apply discount if applicable.
+- If the quantity is greater than or equal to the discountThreshold, calculate the discounted price and multiply it by - the quantity to get the total cost.
+- If the quantity is less than the discountThreshold, multiply the original price by the quantity without applying any discount.
+- Handle calculations involving prices and quantities as numbers without explicit string conversion.
+- Ensure no discount is applied if the quantity is less than or equal to the discountThreshold.
+- Use the original price without changes if the discountRate is 0.
+- Handle large numbers and high discount percentages accurately.
+- Round results to ensure clean and readable output without unnecessary decimal places.
 
   
 </details>
@@ -283,9 +254,6 @@ console.log(calculateTimeRemaining("2024-12-18T00:00:00Z", "2024-12-31T23:59:59Z
 console.log(calculateTimeRemaining("2024-12-18T12:00:00Z", "2024-12-19T14:30:45Z"));
 // Output: { hours: 26, minutes: 30, seconds: 45 }
 
-
-
-  
 ```
 
 `Topics Covered:`
@@ -324,42 +292,19 @@ console.log(calculateTimeRemaining("2024-12-18T00:00:00Z", "2024-12-31T23:59:59Z
 
 console.log(calculateTimeRemaining("2024-12-18T12:00:00Z", "2024-12-19T14:30:45Z"));
 // Output: { hours: 26, minutes: 30, seconds: 45 }
-
-
-
   
 ```
 
 **Explanation:**
 
-
-- ### Input Conversion
-- startTime and endTime are strings in ISO 8601 format (e.g., "2024-12-18T00:00:00Z").
-- These strings are converted to Date objects using JavaScript's Date constructor.
-
-### Difference Calculation
-- Subtract the start date from the end date to get the time difference in milliseconds.
-
-### Convert Milliseconds to Hours, Minutes, and Seconds
-
-1. *Total seconds*:
-   - Divide the difference by 1000 to convert milliseconds to seconds using Math.floor to remove decimals.
-
-2. *Hours*:
-   - Divide the total seconds by 3600 (number of seconds in an hour) and round down using Math.floor.
-
-3. *Minutes*:
-   - Use the modulo operator (% 3600) to get the remaining seconds after calculating hours, then divide by 60.
-
-4. *Seconds*:
-   - Use modulo 60 to get the remaining seconds after calculating minutes.
-
-### Return Format
-- Return an object with the properties hours, minutes, and seconds.
-
-### Edge Cases
-- *Start time is after end time*: The function will return negative values.
-- *Same start and end time*: The function will return { hours: 0, minutes: 0, seconds: 0 }.
+- Convert startTime and endTime from ISO 8601 strings to Date objects using JavaScript's Date constructor.
+- Calculate the time difference in milliseconds by subtracting the start date from the end date.
+- Convert the milliseconds difference to total seconds using Math.floor.
+- Calculate hours by dividing total seconds by 3600 and rounding down using Math.floor.
+- Calculate minutes by using the modulo operator (% 3600) to get remaining seconds after hours, then dividing by 60.
+- Calculate seconds using modulo 60 to get the remaining seconds after minutes.
+- Return an object with properties hours, minutes, and seconds.
+- Handle edge cases like a start time after the end time (negative values) and identical start and end times (zero values).
 
   
 </details>
@@ -380,11 +325,7 @@ function generateRandomNumber(min, max) {
 // Example usage
 console.log(generateRandomNumber(1, 10)); // Output: A random number between 1 and 10 (e.g., 7)
 console.log(generateRandomNumber(5, 15)); // Output: A random number between 5 and 15 (e.g., 12)
-
-
-
-
-  
+ 
 ```
 
 `Topics Covered:`
@@ -408,34 +349,18 @@ function generateRandomNumber(min, max) {
 // Example usage
 console.log(generateRandomNumber(1, 10)); // Output: A random number between 1 and 10 (e.g., 7)
 console.log(generateRandomNumber(5, 15)); // Output: A random number between 5 and 15 (e.g., 12)
-
-
-
-  
+ 
 ```
 
 **Explanation:**
 
-
-- ### Using Math.random()
-- Math.random() generates a random floating-point number between 0 (inclusive) and 1 (exclusive). This means the value will always be between 0 and 1, but never exactly 1.
-
-### Scaling to the Range
-- To scale the random number to the desired range, we multiply the result of Math.random() by the size of the range (max - min + 1). This ensures that the number generated covers the entire range from min to max, inclusive.
-
-### Flooring the Value
-- After scaling, we use Math.floor() to round down the floating-point number to the nearest whole number. This step ensures that we get an integer result.
-
-### Shifting the Range
-- Finally, we add the min value to the result. This shifts the random number into the correct range, starting from the specified min.
-
-### Formula
-- The formula for generating the random number is:
-Random Number = Math.floor(Math.random() * (max - min + 1)) + min
-
-## Edge Cases:
-- *If min equals max*: The function will always return that number. For example, generateRandomNumber(5, 5) will always return 5.
-- *Handles both positive and negative ranges*: The function works for both positive and negative numbers. For example, generateRandomNumber(-10, -5) will generate a random number between -10 and -5.
+- Math.random() generates a random floating-point number between 0 (inclusive) and 1 (exclusive).
+- Scale the random number to the desired range by multiplying it by (max - min + 1).
+- Use Math.floor() to round down the scaled number to the nearest whole number, ensuring an integer result.
+- Add the min value to shift the random number into the correct range starting from the specified min.
+- Use the formula: Random Number = Math.floor(Math.random() * (max - min + 1)) + min.
+- If min equals max, the function always returns that number (e.g., generateRandomNumber(5, 5) returns 5).
+- Handles both positive and negative ranges, allowing random numbers to be generated within negative ranges (e.g., -10 to -5).
 
   
 </details>
@@ -457,12 +382,7 @@ function convertToBinary(number) {
 console.log(convertToBinary(10)); // Output: "1010"
 console.log(convertToBinary(255)); // Output: "11111111"
 console.log(convertToBinary(0)); // Output: "0"
-
-
-
-
-
-  
+ 
 ```
 
 `Topics Covered:`
@@ -487,28 +407,17 @@ function convertToBinary(number) {
 console.log(convertToBinary(10)); // Output: "1010"
 console.log(convertToBinary(255)); // Output: "11111111"
 console.log(convertToBinary(0)); // Output: "0"
-
-
-
-
-  
+ 
 ```
 
 **Explanation:**
 
 
-### Using toString(base)
-- The toString() method of numbers in JavaScript can convert a number into a string representation in any base (from 2 to 36).
-- For binary conversion, we use a base of 2. This will return the binary equivalent of the number.
-
-### Steps:
-1. Pass the number as the argument to the convertToBinary function.
-2. Use number.toString(2) to convert the number to its binary representation. The 2 as the argument specifies that the base is binary.
-
-### Edge Cases:
-- If the number is 0, the output will be "0".
-- The function handles both small and large integers, returning their binary representations as strings.
-
+- Use the toString() method of numbers in JavaScript to convert a number into a string representation in any base (2 to 36).
+- For binary conversion, use a base of 2 with the syntax number.toString(2) to get the binary equivalent of the number.
+- Pass the number as an argument to the convertToBinary function and apply toString(2) for conversion.
+- Handle edge cases like 0, where the output will be "0".
+- The function works for both small and large integers, returning their binary representations as strings.
   
 </details>
  
@@ -529,13 +438,7 @@ function calculateElectricityBill(units, costPerUnit) {
 console.log(calculateElectricityBill(250, 5)); // Output: 1250
 console.log(calculateElectricityBill(100, 10)); // Output: 1000
 console.log(calculateElectricityBill(0, 5)); // Output: 0
-
-
-
-
-
-
-  
+ 
 ```
 
 `Topics Covered:`
@@ -560,26 +463,14 @@ function calculateElectricityBill(units, costPerUnit) {
 console.log(calculateElectricityBill(250, 5)); // Output: 1250
 console.log(calculateElectricityBill(100, 10)); // Output: 1000
 console.log(calculateElectricityBill(0, 5)); // Output: 0
-
-
-
-
-
-  
+ 
 ```
 
 **Explanation:**
 
-
-### Input:
-- units: The number of electricity units consumed.
-- costPerUnit: The cost of electricity per unit consumed.
-
-### Calculation:
-- Multiply the units by the costPerUnit to get the total bill.
-
-### Return:
-- The function returns the calculated total bill.
+- Accept units (number of electricity units consumed) and costPerUnit (cost of electricity per unit) as inputs.
+- Multiply units by costPerUnit to calculate the total bill.
+- Return the calculated total bill.
 
   
 </details>
