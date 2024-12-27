@@ -28,4 +28,6 @@ Simply click on the link below to get started, and dive into a world of learning
 
 #### We believe in you—best of luck as you tackle these challenges! 🌟
 
+`PS: Star the reporsitory if you found it useful`
+
 _Curated with ❤️ from Aimerz_
