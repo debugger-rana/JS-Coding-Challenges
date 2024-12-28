@@ -366,9 +366,9 @@ console.log("Number of events on " + eventDate + ": " + eventCount);
 </details>
  
 ---- 
-` Question 5: Count Events by Date`
+` Question 6: Find Events Happening Now`
 
-  Write a program to count the number of events happening on a specific date.
+  Write a program to identify events that are happening on the current date.
 
 `Example:`
 
