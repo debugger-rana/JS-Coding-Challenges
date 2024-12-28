@@ -1,3 +1,5 @@
+# Operators
+
 ` Question 1: Calculate Total Price with Tax`
 
  Write a function calculateTotalPrice that takes the price of an item and the tax rate, and returns the total price after tax.
