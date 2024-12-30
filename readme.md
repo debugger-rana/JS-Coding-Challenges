@@ -22,7 +22,37 @@ Simply click on the link below to get started, and dive into a world of learning
 
 ---
 
-### [Numbers](/Numbers/)
+### 1. [Numbers](/resources/Numbers/)
+### 2. [String](/resources/String/)
+### 3. [Operators](/resources/Operators/)
+### 4. [Type Conversion](/resources/Type_Conversion/)
+### 5. [Maps](/resources/Maps/)
+### 6. [Sets](/resources/Sets/)
+### 7. [Arrays](/resources/Array/)
+### 8. [Objects](/resources/Objects/)
+### 9. [Conditionals](/resources/Conditionals/)
+### 10. [Ternary](/resources/Ternary/)
+### 11. [Loops](/resources/Loops/)
+### 12. [Regular Functions](/resources/Regular_Function/)
+### 13. [Arrow Functions](/resources/Arrow_Functions/)
+### 14. [Recursive Functions](/resources/Recursive_Functions/)
+### 15. [Closure](/resources/Closure/)
+### 16. [Currying](/resources/Currying/)
+### 17. [Math](/resources/Math/)
+### 18. [Date](/resources/Date/)
+### 19. [Regex](/resources/RegEx/)
+### 20. [Spread](/resources/Spread/)
+### 21. [Rest](/resources/Rest_Parameter/)
+### 22. [Destructuring](/resources/Destructuring/)
+### 23. [Constructor Function](/resources/Constructor_Function/)
+### 24. [Prototype](/resources/Prototype/)
+### 25. [Error Handling](/resources/Error_Handling/)
+### 26. [Promises](/resources/Promises/)
+### 27. [Fetch API](/resources/Fetch_Api/)
+### 28. [Browser APIs](/resources/)
+### 29. [Timer Functions](/resources/Timer%20Functions/)
+### 30. [DOM - CRUD Elements](/resources/DOM/)
+### 31. [Events](/resources/Events/)
 
 ---
 
