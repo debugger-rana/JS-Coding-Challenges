@@ -1,6 +1,6 @@
 # Events in Js
 
-` Question 1: Creating a Button with a Click Event Listener in JavaScript`
+###### ` Question 1: Creating a Button with a Click Event Listener in JavaScript`
 
  Create a javascript program where create a button that says "Click me!".Give the button an ID so we can easily refer to it in our JavaScript code.Find the button on the page using its ID (alertButton).Add a "click event listener" to the button.Show an alert message when the button is clicked.
 
@@ -85,7 +85,7 @@ Event Handler
 </details>
  
 ---- 
-` Question 2: Creating a Button with a Hover Background Color Effect Using HTML and CSS`
+###### ` Question 2: Creating a Button with a Hover Background Color Effect Using HTML and CSS`
 
  create a simple webpage with a button that changes its background color when the user hovers the mouse over it. This effect should be achieved using HTML for the structure of the webpage, and CSS to style the button and apply the hover effect. The button should initially have a green background color and, when the user hovers over it, the background color should change to a slightly darker green.
 
@@ -184,7 +184,7 @@ Event Handler
 </details>
  
 ---- 
-` Question 3: Form Submit Event - Prevent Default`
+###### ` Question 3: Form Submit Event - Prevent Default`
 
  Create a form that prevents submission if the user hasn't filled out a required field.Create a simple form with some fields  like name and submit button and add validation for name field.
 
@@ -283,7 +283,7 @@ Event Handler
 </details>
  
 ---- 
-` Question 4: Keydown Event - Detect Keyboard Input`
+###### ` Question 4: Keydown Event - Detect Keyboard Input`
 
  Create a program where use the addEventListener() method to listen for when a key is pressed (the keydown event). Once the key is pressed, we’ll capture the key value and use the console.log() method to display the key value in the browser's developer console.
 
@@ -366,7 +366,7 @@ Event Handler
 </details>
  
 ---- 
-` Question 5: Change Event - Input Field Validation`
+###### ` Question 5: Change Event - Input Field Validation`
 
  Create a program that checks the validity of an email address entered by the user in an input field.
 
@@ -455,7 +455,7 @@ Event Handler
 </details>
  
 ---- 
-` Question 6: Scroll Event - Show Scroll Progress`
+###### ` Question 6: Scroll Event - Show Scroll Progress`
 
  Create a program that shows the user's scroll progress as a percentage on the page
 
@@ -552,7 +552,7 @@ Event Handler
 </details>
  
 ---- 
-` Question 7: Resize Event - Adjust Layout on Window Resize`
+###### ` Question 7: Resize Event - Adjust Layout on Window Resize`
 
  Create a program that adjusts the text size dynamically based on the window size.Write a test in simple paragraph tag then resize it according to the window.
 
@@ -636,7 +636,7 @@ Event Handler
 </details>
  
 ---- 
-` Question 8: Double Click Event - Show Alert on Double Click`
+###### ` Question 8: Double Click Event - Show Alert on Double Click`
 
  Create a program that shows a custom alert when the user double-clicks a button.Create a button using button tag then assign the id to the button.select button from thier id then add event listener on double click of button.If user double click then print alert message on console.
 
@@ -717,7 +717,7 @@ Event Handler
 </details>
  
 ---- 
-` Question 9:Focus Event - Highlight Input Field`
+###### ` Question 9:Focus Event - Highlight Input Field`
 
  Create a program that changes the border color of an input field when the user focuses on it.
 
@@ -808,7 +808,7 @@ Event Handler
 </details>
  
 ---- 
-` Question 9:Mouse Move Event - Show Coordinates`
+###### ` Question 9:Mouse Move Event - Show Coordinates`
 
  Create a program that tracks the mouse cursor’s position on the screen and shows the coordinates (X, Y) in real time as the user moves the mouse.
 

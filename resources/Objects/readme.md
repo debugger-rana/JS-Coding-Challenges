@@ -1,5 +1,5 @@
 
-` Question 1:User Profile management`
+###### ` Question 1:User Profile management`
 
  Description:Write a program in javascript where define an object userProfile with properties like name, email, age,isAdmin with boolean value and address. The address property itself is an object with street, city, and postalCode,.The object also contains methods like displayProfile to print the user’s profile, and updateEmail to change the users email.
 
@@ -107,7 +107,7 @@ user.displayProfile();
  
 ---- 
 
-` Question 2:Shopping cart System`
+###### ` Question 2:Shopping cart System`
 
  Description:Write a program in javascript where  define function createShoppingCart where define an shoppingCart object with   array of object which contain different item as a object with properties like name, price, quantity.Write a function addItem  to add new items (with name, price, and quantity) to the cart.The program contain function calculateTotal which calculates the total price based on the quantity and price of the items in the cart.Once you add an item to the cart, it automatically recalculates the total.
 
@@ -220,7 +220,7 @@ console.log(`Updated Total: $${myCart.calculateTotal()}`);
 </details>
  
 ---- 
-` Question 3:Storing Contact Information`
+###### ` Question 3:Storing Contact Information`
 
  Description:Write a program in javascript  to store and manage contact information (such as name, phone number, email, and address) using JavaScript objects. .where the contactList is an array that will store all the contacts.Define a Contact constructor function that takes four parameters   name, phone, email, and address. This constructor allows us to create multiple contact objects with these properties.The addContact() function accepts the details of a new contact and creates a Contact object using the constructor.The newly created contact is then added to the contactList array using the push() method.The updateContactInfo() method updates the phone number and email of an existing contact. It takes a contact object and the new phone number and email as parameters, then updates the contact’s phone and email properties.This displayContactDetails  method accepts a contact object and logs its details (name, phone number, email, and address) to the console.
 
@@ -373,7 +373,7 @@ myContactList.displayContactDetails(myContactList.contactList[1]);
 </details>
  
 ---- 
-` Question 4:Storing a Simple Book`
+###### ` Question 4:Storing a Simple Book`
 
  Description:Write a program in javascript where create a simple Book Inventory System where the user can Store book details including title, author, genre, and publication year.Display all books that have been added to the inventory.Remove a book from the inventory by its title.Search for a book by title or author and display the details.
 
@@ -493,7 +493,7 @@ It returns an object with three methods: addBook, viewBooks, and deleteBook.
  
 ---- 
 
-` Question 5:Storing Favorite Color`
+###### ` Question 5:Storing Favorite Color`
 
  Description:create a simple JavaScript program that:
 Asks the user for their favorite color.
@@ -567,7 +567,7 @@ The function askFavoriteColor prompts the user for their favorite color and disp
 </details>
  
 ---- 
-` Question 6:Simple Counter`
+###### ` Question 6:Simple Counter`
 
  Description:Write a javascript program where create a Simple Counter  which contain the function increase, decrease, and reset for 
 Displays a counter starting at 0.
@@ -664,7 +664,7 @@ console.log(counter.getCount()); // 0
  
 ---- 
 
-` Question 7:Weather App (Data Representation)`
+###### ` Question 7:Weather App (Data Representation)`
 
  Description:Write a program in javascript where The weatherData object contains hardcoded weather data for a few cities. The data includes:
 
@@ -761,7 +761,7 @@ getWeather(city);  // Call the function to display the weather
 </details>
  
 ---- 
-` Question 8:Employee Directory System`
+###### ` Question 8:Employee Directory System`
 
  Description:Write a program in javascript where create a array employeeDirectory to store employee objects.each employee object contains name, jobTitle, department.Create addEmployee function accepts three parameters:
  name, jobTitle, and department.
@@ -896,7 +896,7 @@ The Employee Directory System allows adding, viewing, and searching for employee
  
 ---- 
 
-` Question 9:Task manangement (To do list)`
+###### ` Question 9:Task manangement (To do list)`
 
  Description:Write a program in javascript where create a array an array tasks to store all tasks.Each task contain name, completed boolean value that indicates whether the task is completed (true or false).Create The addTask function accepts a task name as a parameter and adds a new task to the tasks array. It ensures that the task name is not empty.Create  completeTask function takes the task name as a parameter, searches for the task in the tasks array, and marks it as completed by setting completed: true.The removeTask function finds a task by its name and removes it from the tasks array if it exists.Create the viewTasks function displays all tasks.
  

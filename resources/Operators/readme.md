@@ -1,6 +1,6 @@
 # Operators
 
-` Question 1: Calculate Total Price with Tax`
+###### ` Question 1: Calculate Total Price with Tax`
 
  Write a function calculateTotalPrice that takes the price of an item and the tax rate, and returns the total price after tax.
 
@@ -52,7 +52,7 @@ console.log(calculateTotalPrice(50, 0.1));   // Output: 55
 </details>
  
 ---- 
-` Question 2: Convert Fahrenheit to Celsius`
+###### ` Question 2: Convert Fahrenheit to Celsius`
 
  Write a function convertToFahrenheit that takes a temperature in Celsius and converts it to Fahrenheit.
 
@@ -106,7 +106,7 @@ console.log(convertToFahrenheit(100)); // Output: 212
 </details>
  
 ---- 
-` Question 3: Calculate Tip`
+###### ` Question 3: Calculate Tip`
 
  Write a function calculateTip that takes the total bill amount and the tip percentage, and returns the tip amount.
 
@@ -160,7 +160,7 @@ console.log(calculateTip(50, 10));  // Output: 5
 </details>
  
 ---- 
-` Question 4: Calculate Age`
+###### ` Question 4: Calculate Age`
 
  Write a function calculateAge that takes the birth year and the current year, and returns the age.
 
@@ -215,7 +215,7 @@ console.log(calculateAge(2000, 2024)); // Output: 24
 </details>
  
 ---- 
-` Question 5: Calculate Simple Interest`
+###### ` Question 5: Calculate Simple Interest`
 
  Write a function calculateSimpleInterest that takes the principal amount, the annual interest rate, and the time in years, and returns the simple interest.
 
@@ -269,7 +269,7 @@ console.log(calculateSimpleInterest(500, 3, 4));  // Output: 60
 </details>
  
 ---- 
-` Question 6: Calculate Annual Salary from Hourly Wage`
+###### ` Question 6: Calculate Annual Salary from Hourly Wage`
 
  Write a function calculateAnnualSalary that takes the hourly wage and the number of hours worked per week, and returns the annual salary, assuming 52 working weeks in a year.
 
@@ -324,7 +324,7 @@ console.log(calculateAnnualSalary(15, 35)); // Output: 27300
 </details>
  
 ---- 
-` Question 7: Calculate Discounted Price`
+###### ` Question 7: Calculate Discounted Price`
 
  Write a function calculateDiscountedPrice that takes the original price and the discount percentage, and returns the price after the discount is applied.
 
@@ -378,7 +378,7 @@ console.log(calculateDiscountedPrice(250, 10)); // Output: 225
 </details>
  
 ---- 
-` Question 8: Calculate Time Difference in Hours`
+###### ` Question 8: Calculate Time Difference in Hours`
 
  Write a function calculateTimeDifference that takes two times (in 24-hour format) as strings and returns the difference in hours.
 
@@ -436,7 +436,7 @@ console.log(calculateTimeDifference("09:00", "14:30")); // Output: 5.50
 </details>
  
 ---- 
-` Question 9: Calculate Distance Between Two Points`
+###### ` Question 9: Calculate Distance Between Two Points`
 
  Write a function calculateDistance that takes the coordinates of two points in a 2D plane and returns the distance between them.
 
@@ -490,7 +490,7 @@ console.log(calculateDistance(0, 0, 5, 12)); // Output: 13.00
 </details>
  
 ---- 
-` Question 10: Calculate Average Speed`
+###### ` Question 10: Calculate Average Speed`
 
  Write a function calculateAverageSpeed that takes the total distance traveled and the total time taken, and returns the average speed.
 

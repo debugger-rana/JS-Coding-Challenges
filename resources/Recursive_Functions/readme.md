@@ -1,5 +1,5 @@
 # Recursive Functions
-` Question 1. Render Navigation menu`
+###### ` Question 1. Render Navigation menu`
 
    Write a JavaScript function that shows the menu structure which contain title and url.The menu should display:Top-level items like "Home," "About," "Contact," etc.Nested submenus under categories like "Services," where each category can have its own submenus (e.g., "Web Development," "App Development").
 
@@ -90,7 +90,7 @@ generateMenu(menu);
 </details>
  
 ---- 
-` Question 2. Parsing Nested Comments`
+###### ` Question 2. Parsing Nested Comments`
 
    Write a program in javascript where create and array of comments  where each comments have id, text and reply and reply recursively contains many reply.
 
@@ -167,7 +167,7 @@ displayComments(comments);
 </details>
  
 ---- 
-` Question 3. Array Traversal`
+###### ` Question 3. Array Traversal`
 
    Write a program in javascript where create a array category with attribute name and subcategory and subcategory further contain name.The printCategories function traverses each node in the tree-like structure. If a category has subcategories, it calls itself recursively to process those subcategories.
 
@@ -243,7 +243,7 @@ printCategories(categories);
 </details>
  
 ---- 
-` Question 4. Generating Combinations`
+###### ` Question 4. Generating Combinations`
 
    Write a program in javascript where create the function generateSubsets recursively generates all subsets of the input array.It first handles the base case where the array is empty by returning an empty.Then it splits the problem by considering subsets both with and without the first element of the array.
 

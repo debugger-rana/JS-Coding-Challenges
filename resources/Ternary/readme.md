@@ -1,6 +1,6 @@
 # Ternary
 
-` Question 1: Determine Pass or Fail`
+###### ` Question 1: Determine Pass or Fail`
 
   Write a function checkPassFail that checks if a student has passed: 
      1. If marks >= 40, return "Pass".
@@ -57,7 +57,7 @@ console.log(checkPassFail(45));  // Output: "Pass"
 </details>
  
 ---- 
-` Question 2: Check Eligibility for Voting`
+###### ` Question 2: Check Eligibility for Voting`
 
  Write a function checkVotingEligibility that checks if a user can vote:
     1. If age >= 18, return "Eligible to Vote".
@@ -116,7 +116,7 @@ console.log(checkVotingEligibility(16));  // Output: "Not Eligible"
 </details>
  
 ---- 
-` Question 3: Check User Login Status`
+###### ` Question 3: Check User Login Status`
 
  Write a function checkLogin that checks if a user is logged in:
      1. If isLoggedIn is true, return "Welcome User".
@@ -173,7 +173,7 @@ console.log(checkLogin(false));  // Output: "Please Login"
 </details>
  
 ---- 
-` Question 4: Button State Based on Form Completion`
+###### ` Question 4: Button State Based on Form Completion`
 
  Write a function buttonState that checks if the form is valid (isValid) and submitted (isSubmitted):
     1. If isSubmitted is true, return "Disabled".
@@ -240,7 +240,7 @@ console.log(buttonState(true, true));     // Output: "Disabled"
 </details>
  
 ---- 
-` Question 5: Display Product Availability`
+###### ` Question 5: Display Product Availability`
 
  Write a function productStatus that takes stock and isDiscontinued. Return:
      1. "Discontinued" if isDiscontinued is true.
@@ -311,7 +311,7 @@ console.log(productStatus(10, false));  // Output: "In Stock"
 </details>
  
 ---- 
-` Question 6: Dynamic Navigation Based on Role`
+###### ` Question 6: Dynamic Navigation Based on Role`
 
  Write a function getNavLink that checks a user’s role (role) and returns the appropriate navigation link:
   1. If role is "admin", return "/admin/dashboard".
@@ -384,7 +384,7 @@ console.log(getNavLink(""));      // Output: "/guest"
 </details>
  
 ---- 
-` Question 7: Session Timeout Warning`
+###### ` Question 7: Session Timeout Warning`
 
  Write a function sessionWarning that checks time left for a session (timeLeft):
   1. If timeLeft <= 0, return "Session Expired".
@@ -455,7 +455,7 @@ console.log(sessionWarning(-1));  // Output: "Session Expired"
 </details>
  
 ---- 
-` Question 8: Display File Upload Status`
+###### ` Question 8: Display File Upload Status`
 
  Write a function fileUploadStatus that checks upload progress (progress):
    1. If progress === 100, return "Upload Complete".
@@ -527,7 +527,7 @@ console.log(fileUploadStatus(10));  // Output: "Uploading..."
 </details>
  
 ---- 
-` Question 9: Determine Shipping Cost`
+###### ` Question 9: Determine Shipping Cost`
 
  Write a function shippingCost that calculates the shipping fee:
    1. If cartTotal >= 500, return "Free Shipping".
@@ -598,7 +598,7 @@ console.log(shippingCost(500, 20));  // Output: "Free Shipping"
 </details>
  
 ---- 
-` Question 10: Password Strength Checker`
+###### ` Question 10: Password Strength Checker`
 
  Write a function passwordStrength that checks the strength of a password :
    1. If length >= 12, return "Strong".

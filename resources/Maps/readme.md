@@ -1,6 +1,6 @@
 # Maps
 
-` Question 1: Find Events Within a Latitude and Longitude Range`
+###### ` Question 1: Find Events Within a Latitude and Longitude Range`
 
  Suppose that you are developing an event management application. Given an array of event data with latitude and longitude coordinates, find all events that are within a specified range of latitude and longitude.
 
@@ -74,7 +74,7 @@ console.log(filteredEvents);
 </details>
  
 ---- 
-` Question 2: Group Events by City`
+###### ` Question 2: Group Events by City`
 
  Create a map that groups events based on their city.
 
@@ -158,7 +158,7 @@ for (const city in groupedEvents) {
 </details>
  
 ---- 
-` Question 3: Event Planning`
+###### ` Question 3: Event Planning`
 
  You are building an event management application. Create a map that shows all the events happening in a city on a particular date, displaying them with markers and event details.
 
@@ -234,7 +234,7 @@ eventsOnDate.forEach(event => {
 </details>
  
 ---- 
-` Question 4: Check if a City is in the Northern Hemisphere`
+###### ` Question 4: Check if a City is in the Northern Hemisphere`
 
  Write a programme to check if a city is in the Northern Hemisphere based on its latitude using maps. 
 
@@ -297,7 +297,7 @@ console.log(checkHemisphere(latitude));
 </details>
  
 ---- 
-` Question 5: Count Events by Date`
+###### ` Question 5: Count Events by Date`
 
   Write a program to count the number of events happening on a specific date.
 
@@ -366,7 +366,7 @@ console.log("Number of events on " + eventDate + ": " + eventCount);
 </details>
  
 ---- 
-` Question 6: Find Events Happening Now`
+###### ` Question 6: Find Events Happening Now`
 
   Write a program to identify events that are happening on the current date.
 

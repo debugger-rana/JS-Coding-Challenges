@@ -1,6 +1,6 @@
 # Regular Function
 
-` Question 1: API Rate Limiting`
+###### ` Question 1: API Rate Limiting`
 
  Create a function limitApiRequests that limits how many API requests a user can make in a given timeframe (e.g., 100 requests per hour).
 
@@ -78,7 +78,7 @@ The function limits API requests per user within a 1-hour timeframe:
 </details>
  
 ---- 
-` Question 2: Inventory Stock Checker`
+###### ` Question 2: Inventory Stock Checker`
 
  Write a function checkStock that checks if an item is in stock based on a product’s inventory object. If stock is low, return a warning message.
 
@@ -140,7 +140,7 @@ The function checks the stock of a specific item in the inventory:
 </details>
  
 ---- 
-` Question 3: Secure Password Generator`
+###### ` Question 3: Secure Password Generator`
 
  Create a function generatePassword that generates a random, secure password with specified criteria (e.g., length, uppercase letters, numbers, special characters).
 
@@ -213,7 +213,7 @@ The function generates a random password based on the given parameters:
 </details>
  
 ---- 
-` Question 4: Email Obfuscator`
+###### ` Question 4: Email Obfuscator`
 
  Write a function obfuscateEmail that obfuscates an email address for privacy by replacing parts of it with *.
 
@@ -276,7 +276,7 @@ For example:
 </details>
  
 ---- 
-` Question 5: Fraud Detection`
+###### ` Question 5: Fraud Detection`
 
  Build a function detectFraud that detects suspicious transactions by identifying if a user has made multiple transactions above a certain amount within a short timeframe.
 
@@ -357,7 +357,7 @@ The function detects potential fraudulent transactions by:
 </details>
  
 ---- 
-` Question 6: Product Recommendation Engine`
+###### ` Question 6: Product Recommendation Engine`
 
  Create a function recommendProducts that recommends products to a user based on their browsing history (an array of product categories they viewed).
 
@@ -429,7 +429,7 @@ The function recommends products based on a user's browsing history:
 </details>
  
 ---- 
-` Question 7: Data Sanitizer`
+###### ` Question 7: Data Sanitizer`
 
  Write a function sanitizeInput that sanitizes user inputs by removing dangerous characters like <, >, and script tags to prevent XSS attacks.
 
@@ -478,7 +478,7 @@ false
 </details>
  
 ---- 
-` Question 8: Coupon Expiry Checker`
+###### ` Question 8: Coupon Expiry Checker`
 
  Write a function isCouponValid that checks if a coupon code is valid or expired based on its expiration date.
 
@@ -531,7 +531,7 @@ console.log(isCouponValid(coupon)); // true or false
 </details>
  
 ---- 
-` Question 9: Booking Slot Validator`
+###### ` Question 9: Booking Slot Validator`
 
  Write a function isSlotAvailable that checks if a selected booking slot is available, given an array of already booked slots.
 
@@ -585,7 +585,7 @@ console.log(isSlotAvailable(bookedSlots, "11:00 AM")); // false
 </details>
  
 ---- 
-` Question 10: Download Speed Calculator`
+###### ` Question 10: Download Speed Calculator`
 
  Write a function calculateDownloadSpeed that calculates the download speed in Mbps based on the file size and download time.
 

@@ -1,6 +1,6 @@
 # Sets
 
-` Question 1. Add Unique Elements to a Set`
+###### ` Question 1. Add Unique Elements to a Set`
 
   Write a program to create a Set from an array to store only unique elements. This demonstrates how duplicates are automatically removed by the Set.
 
@@ -50,7 +50,7 @@ console.log(addUniqueElements([1, 2, 2, 3, 4, 4, 5]));
 </details>
  
 ---- 
-` Question 2. Remove an Element from a Set`
+###### ` Question 2. Remove an Element from a Set`
 
   Write a program to remove a specific element from a Set using the delete() method and return the updated Set.
 
@@ -101,7 +101,7 @@ console.log(removeElement(mySet, 3)); // Output: Set(4) {1, 2, 4,
 </details>
  
 ---- 
-` Question 3. Check if a Set Contains an Element`
+###### ` Question 3. Check if a Set Contains an Element`
 
   Write a program to check whether a Set contains a specific element using the has() method. Return true if it exists, otherwise false.
 
@@ -149,7 +149,7 @@ console.log(containsElement(mySet, 3)); // Output: true
 </details>
  
 ---- 
-` Question 4. Count Elements in a Set`
+###### ` Question 4. Count Elements in a Set`
 
   Write a program to find the total number of elements in a Set using the size property.
 
@@ -197,7 +197,7 @@ console.log(countElements(mySet)); // Output: 5
 </details>
  
 ---- 
-` Question 5. Convert a Set to an Array`
+###### ` Question 5. Convert a Set to an Array`
 
   Write a program to transform a Set into an array for further operations such as sorting or iteration.
 
@@ -245,7 +245,7 @@ console.log(convertSetToArray(mySet)); // Output: [1, 2, 3, 4, 5]
 </details>
  
 ---- 
-` Question 6. Find the Union of Two Sets`
+###### ` Question 6. Find the Union of Two Sets`
 
   Write a program to combine two Sets into one, containing all unique elements from both Sets.
 
@@ -297,7 +297,7 @@ console.log(unionOfSets(setA, setB)); // Output: Set(5) {1, 2, 3, 4, 5}
 </details>
  
 ---- 
-` Question 7. Find the Intersection of Two Sets`
+###### ` Question 7. Find the Intersection of Two Sets`
 
   Write a program to identify elements that are common to both Sets using the filter() and has() methods.
 
@@ -347,7 +347,7 @@ console.log(intersectionOfSets(setA, setB)); // Output: Set(1) {3}
 </details>
  
 ---- 
-` Question 8. Find the Difference Between Two Sets`
+###### ` Question 8. Find the Difference Between Two Sets`
 
   Write a program to find elements that are in one Set but not in the other.
 

@@ -1,6 +1,6 @@
 # Spread
 
-` Question 1. Merge Two Arrays`
+###### ` Question 1. Merge Two Arrays`
 
   Write a program to merge two arrays into one using the spread operator. The spread operator should be used to combine both arrays without modifying the original arrays.
 
@@ -49,7 +49,7 @@ console.log(mergeArrays([1, 2, 3], [4, 5, 6]));
 </details>
  
 ---- 
-` Question 2. Clone an Object`
+###### ` Question 2. Clone an Object`
 
   Write a program to create a copy of an object using the spread operator. Ensure that the original object remains unchanged when modifications are made to the cloned object.
 
@@ -110,7 +110,7 @@ console.log(cloned);
 </details>
  
 ---- 
-` Question 3. Add Elements to an Array`
+###### ` Question 3. Add Elements to an Array`
 
   Write a program to add elements to the beginning and end of an array using the spread operator. The spread operator should ensure the original array remains unchanged.
 
@@ -162,7 +162,7 @@ console.log(addElements([2, 3, 4], 1, 5));
 </details>
  
 ---- 
-` Question 4. Combine Two Objects`
+###### ` Question 4. Combine Two Objects`
 
   Write a program to combine the properties of two objects into one using the spread operator. Ensure the second object’s properties overwrite those of the first object if there are conflicts.
 
@@ -214,7 +214,7 @@ console.log(combineObjects({ name: "Alice", age: 25 }, { age: 30, city: "New Yor
 </details>
  
 ---- 
-` Question 5. Remove Duplicates from an Array`
+###### ` Question 5. Remove Duplicates from an Array`
 
   Write a program to remove duplicate elements from an array using the spread operator and a Set. A Set automatically eliminates duplicates, and the spread operator converts it back to an array.
 
@@ -265,7 +265,7 @@ console.log(removeDuplicates([1, 2, 2, 3, 4, 4, 5]));
 </details>
  
 ---- 
-` Question 6. Split an Object into Two Objects`
+###### ` Question 6. Split an Object into Two Objects`
 
   Write a program to split an object into two smaller objects using the spread operator. Specify which keys should belong to the first object and assign the remaining keys to the second object.
 

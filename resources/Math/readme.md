@@ -1,5 +1,5 @@
 # Math
-` Question 1. Find the Factorial of a Number`
+###### ` Question 1. Find the Factorial of a Number`
 
   Write a function to calculate the factorial of a given number. The factorial of n is the product of all positive integers less than or equal to n.
 
@@ -53,7 +53,7 @@ console.log(factorial(5)); // Output: 120
 </details>
  
 ---- 
-` Question 2. Find the Greatest Common Divisor (GCD)`
+###### ` Question 2. Find the Greatest Common Divisor (GCD)`
 
   Write a function to find the GCD of two numbers using the Euclidean algorithm. The GCD is the largest number that divides both the numbers without leaving a remainder.
 
@@ -108,7 +108,7 @@ console.log(gcd(56, 98)); // Output: 14
 </details>
  
 ---- 
-` Question 3. Calculate the Square Root of a Number`
+###### ` Question 3. Calculate the Square Root of a Number`
 
   Write a function that returns the square root of a given number. If the number is negative, return an error message.
 
@@ -161,7 +161,7 @@ console.log(squareRoot(25)); // Output: 5
 </details>
  
 ---- 
-` Question 4. Find the Power of a Number`
+###### ` Question 4. Find the Power of a Number`
 
   Write a function to calculate the power of a number, i.e., base raised to the exponent.
 
@@ -213,7 +213,7 @@ console.log(power(3, 4)); // Output: 81
 </details>
  
 ---- 
-` Question 5. Check if a Number is Prime`
+###### ` Question 5. Check if a Number is Prime`
 
   Write a function to check if a given number is a prime number. A prime number is a number greater than 1 that has no divisors other than 1 and itself.
 
@@ -272,7 +272,7 @@ console.log(isPrime(11)); // Output: true
 </details>
  
 ---- 
-` Question 6. Find the Least Common Multiple (LCM)`
+###### ` Question 6. Find the Least Common Multiple (LCM)`
 
   Write a function to calculate the LCM of two numbers. The LCM is the smallest positive integer that is divisible by both numbers.
 

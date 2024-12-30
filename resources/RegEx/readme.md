@@ -1,6 +1,6 @@
 # RegEx
 
-` Question 1: Check if an Email is Valid`
+###### ` Question 1: Check if an Email is Valid`
 
  Write a function createChatManager that stores and retrieves live chat messages in a chat application.
 
@@ -61,7 +61,7 @@ The isValidEmail function checks if an email is valid using a regular expression
 </details>
  
 ---- 
-` Question 2: Find Phone Numbers in Text`
+###### ` Question 2: Find Phone Numbers in Text`
 
  Write a function findPhoneNumbers that extracts all valid phone numbers from a string.
    Valid formats include:
@@ -131,7 +131,7 @@ The findPhoneNumbers function extracts phone numbers from a given text using a r
 </details>
  
 ---- 
-` Question 3: Get Query Parameters from a Link`
+###### ` Question 3: Get Query Parameters from a Link`
 
  Write a function getQueryParameter that extracts the value of a specific query parameter from a URL.
 
@@ -186,7 +186,7 @@ The getQueryParameter function extracts the value of a specific query parameter 
 </details>
  
 ---- 
-` Question 4: Check if a Date is in the Right Format`
+###### ` Question 4: Check if a Date is in the Right Format`
 
  Write a function isValidDate that checks if a string follows the YYYY-MM-DD date format.
 
@@ -247,7 +247,7 @@ The isValidDate function checks if a given date string is in the correct YYYY-MM
 </details>
  
 ---- 
-` Question 5: Validate an IP Address`
+###### ` Question 5: Validate an IP Address`
 
  Write a function isValidIP to check if a string is a valid IP address in either IPv4 or IPv6 format.
 
@@ -308,7 +308,7 @@ The isValidIP function checks if a given string is a valid IPv4 address.
 </details>
  
 ---- 
-` Question 6: Find All Hashtags in a Text`
+###### ` Question 6: Find All Hashtags in a Text`
 
  Write a function findHashtags to extract all hashtags from a text.
 
@@ -369,7 +369,7 @@ The findHashtags function extracts all hashtags from a given text.
 </details>
  
 ---- 
-` Question 7: Find HTML Tags`
+###### ` Question 7: Find HTML Tags`
 
  Write a function findHTMLTags to extract all HTML tags from a string.
 
@@ -429,7 +429,7 @@ console.log(findHTMLTags("<div><h1>Hello</h1></div>")); // ["<div>", "<h1>", "</
 </details>
  
 ---- 
-` Question 8: Extract the Domain Name from a URL`
+###### ` Question 8: Extract the Domain Name from a URL`
 
  Write a function getDomain to extract the domain name from a URL.
 
@@ -486,7 +486,7 @@ The getDomain function extracts the domain name from a given URL.
 </details>
  
 ---- 
-` Question 9: Find Hex Color Codes`
+###### ` Question 9: Find Hex Color Codes`
 
  Write a function findHexColors to extract all valid hex color codes from a string.
 

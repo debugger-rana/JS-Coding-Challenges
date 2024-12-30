@@ -2,7 +2,7 @@
 
  
 ---- 
-` Question 1:Valid Password`
+###### ` Question 1:Valid Password`
 
  Write a javascript program, create a variable password and a function checkIfPasswordIsValid. The condition in which the function returns true is when the length of password is minimum 8 characters.
 
@@ -200,7 +200,7 @@ If the query is found, it logs "Product matches the search query!".
 </details>
  
 ---- 
-` Question 4:Valid email`
+###### ` Question 4:Valid email`
 
  Write a javascript program. Where create a variable email and assign the some email address in it.Then create a variable domain. After that check the email contain the domain.If it finds the domain within the email, it returns the position where domain starts. If not, it returns -1.
 
@@ -269,7 +269,7 @@ checkGmailDomain(email, domain);
 </details>
  
 ---- 
-` Question 5:cleanUp extra spaces`
+###### ` Question 5:cleanUp extra spaces`
 
  Write a program in javascript. Where  create a variable phoneNumber .phoneNumber contains the user input, but it has unwanted spaces at the start and end.Than create cleanedPhoneNumber variable which  holds the processed, clean phone number without extra spaces..
 
@@ -334,7 +334,7 @@ console.log(cleanedPhoneNumber);  // Output: "+1 234 567 890"
 </details>
  
 ---- 
-` Question 6:Convert URLs to Links`
+###### ` Question 6:Convert URLs to Links`
 
  Write a program in javascript. Where  create a variable  text contains a string with URLs. Then create the another variable urlPattern  that is the regular Expression matches any URL that starts with http:// or https://, followed by any characters that aren't spaces.For each URL found, it is replaced with an anchor tag (<a>), making the URL clickable.
 
@@ -398,7 +398,7 @@ console.log(updatedText);
 </details>
  
 ---- 
-` Question 7:URL Generation`
+###### ` Question 7:URL Generation`
 
  Write a program in javascript where create a three variable  baseURL, searchQuery, categoryFilter. By using this three variable generate the full URL of website.
 
@@ -473,7 +473,7 @@ console.log(fullURL);
 </details>
  
 ---- 
-` Question 8:File Extension validation`
+###### ` Question 8:File Extension validation`
 
  Write a program in js where you have given a array validExtensions .Which contain the all valid extension.Write a function validateFileExtension to check the valid file type.
 
@@ -539,7 +539,7 @@ validateFileExtension("document.pdf");
 </details>
  
 ---- 
-` Question 9:Case-Insensitive Search`
+###### ` Question 9:Case-Insensitive Search`
 
  Write a program in js where you have given a array products .Which contain the all  products in case-insenstive form and another is searchQuery.Write a  logic to check is searQuery present in the production array..
 

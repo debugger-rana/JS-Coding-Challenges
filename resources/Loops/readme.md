@@ -1,6 +1,6 @@
 # Loops
 
-` Question 1. Calculate Total Cart Price`
+###### ` Question 1. Calculate Total Cart Price`
 
   Write a program in javascript where  define a cartItem array which store the all item.Each item is represented as an object with properties like name, price, and quantity.Use a loop to go through each item in the cart and calculate its total price (item price multiplied by item quantity).After calculating the total price of all items, print or display the total to the user.
 
@@ -81,7 +81,7 @@ console.log("Total Cart Price: $" + total);
 </details>
  
 ---- 
-` Question 2. Calculate Quiz Score Based on User's Answers`
+###### ` Question 2. Calculate Quiz Score Based on User's Answers`
 
   Write a program in javascript where create An array of objects questions, where each object contains a question (question text) and the points (point value for that question).Create a array userAnswers that stores the users answers.Each answer is either "correct" or "incorrect".create function calculateQuizScore function .Loops through all the questions and checks the users answer.If the answer is correct, it adds the respective points to the total score.It also calculates the percentage by dividing the total score by the maximum possible score and multiplying by 100.
 
@@ -168,7 +168,7 @@ calculateTotalPrice();
 </details>
  
 ---- 
-` Question 3. Filter Products Based on Availability and Price`
+###### ` Question 3. Filter Products Based on Availability and Price`
 
   Write a program in javascript where  You are given an array called products, which contains objects representing various products. Each product has properties such as id, name, price, and inStock. The goal is to filter the array to keep only those products where inStock is true and the price is less than $100. You need to use an array method, like filter, to achieve this and return a new array containing the products that meet these criteria.
 
@@ -244,7 +244,7 @@ console.log(filteredProducts);
 </details>
  
 ---- 
-` Question 4. Generating a List of Random Numbers`
+###### ` Question 4. Generating a List of Random Numbers`
 
   Write a program in javascript where create function generateRandomNumbers(count, min, max): count: The number of random numbers you want to generate. , min: The minimum possible value for the random number. , max: The maximum possible value for the random number. , The for loop runs count times, which means it will generate that many random numbers.Once the loop is finished, the function returns the array of random numbers.
 
@@ -313,7 +313,7 @@ console.log(randomList);
 </details>
  
 ---- 
-` Question 5. Counting Down Timer (Countdown)`
+###### ` Question 5. Counting Down Timer (Countdown)`
 
   Write a program in javascript where  Start with a specific countdown time (in seconds).Create a loop that will run for the number of seconds in the countdown.Inside the loop, wait for 1 second (1000 milliseconds).Calculate and display the remaining time.Stop the loop when the time is zero and display "Time up!
 
@@ -380,7 +380,7 @@ countdown(10);
 </details>
  
 ---- 
-` Question 6. Summing Numbers in an Array`
+###### ` Question 6. Summing Numbers in an Array`
 
    Write a program in javascript where create array numbers where store the some numbers.Then the for loop iterates through each element in the numbers array. In each iteration, the current number (numbers[i]) is added to the sum variable.
 

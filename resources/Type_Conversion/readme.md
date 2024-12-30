@@ -1,5 +1,5 @@
 # Type Conversion
-` Question 1:Age Validation`
+###### ` Question 1:Age Validation`
 
  Write a program in javascript.where User input  age as a string in variable ageInput. Write a program to check whether the input age is valid or not.
 
@@ -58,7 +58,7 @@ The validateAge function converts the input string to an integer and checks if i
 </details>
  
 ---- 
-` Question 2:Phone Number Validation`
+###### ` Question 2:Phone Number Validation`
 
  Write a program in javaScript where take a phone number as a input in variable phoneInput. Write a logic to validate weather the phone number is valid or not.
 
@@ -113,7 +113,7 @@ String() method
 </details>
  
 ---- 
-` Question 3:API Response Conversion`
+###### ` Question 3:API Response Conversion`
 
 Write a program in javaScript where declare a object  apiResponse which return a variable productId of integer type, productName string type, price string type, available boolean type.Write a program to  convert the price from string to number.Formate price as a currency.
 
@@ -184,7 +184,7 @@ console.log(formatPriceFromApiResponse(apiResponse));  // "$999.99"
 -It then returns the formatted price prefixed with a dollar sign ($).
   
 </details>
-` Question 4:Storing Objects in Local Storage`
+###### ` Question 4:Storing Objects in Local Storage`
 
  Write a program in javaScript where declare a object with variable name, age and write a program to convert it into JSON string and store it in localstorage.
 
@@ -245,7 +245,7 @@ storeUserData(user);
  
 ---- 
 
-` Question 5:Converting a Date Object to String`
+###### ` Question 5:Converting a Date Object to String`
 
  Write a program in javaScript  where create a variable currentDate and declare the current date by using Date constructor.Write a program to convert the date in string formate
 
@@ -306,7 +306,7 @@ converts it into a string using .toString(), and then returns the string.
 </details>
  
 ---- 
-` Question 6:Displaying a List of Users`
+###### ` Question 6:Displaying a List of Users`
 
  Create an array of user objects, each containing name (string) age (number)email (string) Iterate through the array and display the user information in a formatted manner.
 

@@ -1,6 +1,6 @@
 # DOM
 
-` Question 1: Add a New Item to a List`
+###### ` Question 1: Add a New Item to a List`
 
  Write a function addItemToList that adds a new list item with a specified text to an unordered list with a given ID.
 
@@ -84,7 +84,7 @@ Dom methods & properties
 </details>
  
 ---- 
-` Question 2: Delete All Items from a List`
+###### ` Question 2: Delete All Items from a List`
 
  Write a function clearList that removes all list items from an unordered list with the given ID.
 
@@ -168,7 +168,7 @@ Dom methods & properties
 </details>
  
 ---- 
-` Question 3: Edit a Specific List Item`
+###### ` Question 3: Edit a Specific List Item`
 
  Write a function editListItem that updates the text of a specific list item at a given index in an unordered list with the given ID.
 
@@ -270,7 +270,7 @@ Dom methods & properties
 </details>
  
 ---- 
-` Question 4: Live Search with Dynamic Results`
+###### ` Question 4: Live Search with Dynamic Results`
 
  Write a function liveSearch that dynamically filters and displays search results as the user types in an input field. The function should match the input against a list of items in an array and display only the matching items in real time, without requiring a page reload.
 
@@ -410,7 +410,7 @@ Array methods i.e. filter(), toLowerCase(),includes(), Dom methods i.e. innerHtm
 </details>
  
 ---- 
-` Question 5: Collapsible Sidebar`
+###### ` Question 5: Collapsible Sidebar`
 
  Write a function toggleSidebar that toggles the visibility of a sidebar when a button is clicked.
 
@@ -532,7 +532,7 @@ Dom methods i.e. innerHtml,appendChild, textContent
 </details>
  
 ---- 
-` Question 6: Auto-Save Form Data`
+###### ` Question 6: Auto-Save Form Data`
 
  Write a function autoSaveFormData that saves the data entered in a form to localStorage every time a user types. The saved data should be restored when the page is reloaded.
 
@@ -627,7 +627,7 @@ Dom methods, localStorage concept
 </details>
  
 ---- 
-` Question 7: Copy to Clipboard`
+###### ` Question 7: Copy to Clipboard`
 
  Write a function copyToClipboard that copies the text content of an element with a specific ID to the clipboard when a button is clicked.
 
@@ -725,7 +725,7 @@ Dom methods, Clipboard methods
 </details>
  
 ---- 
-` Question 8: Accordion Menu`
+###### ` Question 8: Accordion Menu`
 
  Write a function createAccordion that takes a list of section titles and contents. When a section title is clicked, its content expands, and the other sections collapse.
 
@@ -827,7 +827,7 @@ Dom methods
 </details>
  
 ---- 
-` Question 9: Add Multiple Items to a List`
+###### ` Question 9: Add Multiple Items to a List`
 
  Write a function addMultipleItemsToList that adds multiple list items to an unordered list with a given ID.
 
@@ -935,7 +935,7 @@ Dom methods, Array methods i.e. forEach()
 </details>
  
 ---- 
-` Question 10: Replace All List Items`
+###### ` Question 10: Replace All List Items`
 
  Write a function replaceListItems that replaces all existing list items in an unordered list with a new set of items.
 

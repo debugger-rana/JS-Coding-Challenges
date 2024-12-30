@@ -1,5 +1,5 @@
 # Error Handling
-` Question 1: Handle Division by Zero`
+###### ` Question 1: Handle Division by Zero`
 
  Write a function safeDivide that takes two numbers and returns their division. If the divisor is 0, it should throw an error with the message "Cannot divide by zero".
 
@@ -65,7 +65,7 @@ console.log(safeDivide(10, 0)); // Expected output: "Cannot divide by zero"
 </details>
  
 ---- 
-` Question 2: Handle Timeout in API Requests`
+###### ` Question 2: Handle Timeout in API Requests`
 
  Write a function fetchWithTimeout that fetches data from an API and rejects the promise if it takes more than 5 seconds.
 
@@ -141,7 +141,7 @@ fetchWithTimeout("https://jsonplaceholder.typicode.com/posts")
 </details>
  
 ---- 
-` Question 3: Validate URL Format`
+###### ` Question 3: Validate URL Format`
 
  Write a function validateURL that checks if a given string is a valid URL. If not, return the message "Invalid URL format".
 
@@ -206,7 +206,7 @@ console.log(validateURL("htp://example.com"));  // Expected output: "Invalid URL
 </details>
  
 ---- 
-` Question 4: Catch DOM Manipulation Errors`
+###### ` Question 4: Catch DOM Manipulation Errors`
 
  Write a function updateElementText that updates the text content of a DOM element. If the element does not exist, throw an error with the message "Element not found".
 
@@ -273,7 +273,7 @@ console.log(updateElementText("#nonExistingElement", "Hello World")); // Expecte
 </details>
  
 ---- 
-` Question 5: Validate Form Inputs`
+###### ` Question 5: Validate Form Inputs`
 
  Write a function validateForm that checks if all required fields in a form are filled. If any field is empty, return the message "Form validation failed".
 
@@ -339,7 +339,7 @@ console.log(validateForm({ name: "Prabir", email: "" })); // Expected output: "F
 </details>
  
 ---- 
-` Question 6: Prevent Infinite Loops`
+###### ` Question 6: Prevent Infinite Loops`
 
  Write a function safeLoop that executes a loop with a maximum iteration limit. If the limit is exceeded, throw an error with the message "Infinite loop detected".
 
@@ -404,7 +404,7 @@ console.log(safeLoop(1500)); // Expected output: "Infinite loop detected"
 </details>
  
 ---- 
-` Question 7: Handle Cookie Errors`
+###### ` Question 7: Handle Cookie Errors`
 
  Write a function getCookieValue that retrieves a cookie's value. If the cookie does not exist, throw an error with the message "Cookie not found".
 
@@ -470,7 +470,7 @@ console.log(getCookieValue("sessionId")); // Expected output: Value of "sessionI
 </details>
  
 ---- 
-` Question 8: Validate Email Format`
+###### ` Question 8: Validate Email Format`
 
  Write a function validateEmail that checks if a given string is a valid email. If not, return the message "Invalid email format".
 
@@ -534,7 +534,7 @@ console.log(validateEmail("example.com"));        // Expected output: "Invalid e
 </details>
  
 ---- 
-` Question 9: Handle Null Values`
+###### ` Question 9: Handle Null Values`
 
  Write a function safeLength that returns the length of a string. If the input is null, return the message "Cannot get length of null".
 
@@ -596,7 +596,7 @@ console.log(safeLength(null));     // Expected output: "Cannot get length of nul
 </details>
  
 ---- 
-` Question 10: Validate Array Index`
+###### ` Question 10: Validate Array Index`
 
  Write a function getElement that retrieves an element from an array by index. If the index is out of bounds, throw an error with the message "Index out of range".
 

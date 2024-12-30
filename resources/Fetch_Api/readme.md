@@ -1,6 +1,6 @@
 # Fetch Api
 
-` Question 1: Fetch Data from API`
+###### ` Question 1: Fetch Data from API`
 
  Write a function fetchData that fetches data from the following URL and returns the JSON response.
 
@@ -72,7 +72,7 @@ fetchData().then(data => console.log(data));
 </details>
  
 ---- 
-` Question 2: Fetch with Query Parameters`
+###### ` Question 2: Fetch with Query Parameters`
 
  Write a function fetchPostsByUser that fetches posts by a specific user ID from the following URL:
    API URL:https://jsonplaceholder.typicode.com/posts?userId=USER_ID
@@ -150,7 +150,7 @@ Fetches posts for a specific user from the API [https://jsonplaceholder.typicode
 </details>
  
 ---- 
-` Question 3: Cancel Fetch Request`
+###### ` Question 3: Cancel Fetch Request`
 
  Write a function cancelRequest that uses the Fetch API and AbortController to cancel a request to this URL after 3 seconds if it doesn't complete.
  API URL:https://jsonplaceholder.typicode.com/posts 
@@ -231,7 +231,7 @@ Cancels an API request after 3 seconds using AbortController.
 </details>
  
 ---- 
-` Question 4: Fetch and Update DOM`
+###### ` Question 4: Fetch and Update DOM`
 
  Write a function fetchAndUpdateDOM that fetches a list of users and dynamically creates a <ul> with their names and emails on the page.
   API URL:https://jsonplaceholder.typicode.com/users 
@@ -361,7 +361,7 @@ Fetches user data from an API and updates the DOM with the user list.
 </details>
  
 ---- 
-` Question 5: Fetch and Cache Data`
+###### ` Question 5: Fetch and Cache Data`
 
  Write a function fetchWithCache that fetches data from the API. If the data has already been fetched before, return the cached data instead of making another network request.
   API URL:https://jsonplaceholder.typicode.com/posts

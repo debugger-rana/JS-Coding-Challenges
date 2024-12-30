@@ -1,6 +1,6 @@
 # Rest parameter
 
-` Question 1: Sum of Numbers`
+###### ` Question 1: Sum of Numbers`
 
  Write a function sumNumbers that takes any number of arguments and returns the sum of all the numbers.
 
@@ -53,7 +53,7 @@ console.log(sumNumbers(1, 2, 3, 4, 5)); // Output: 15
 </details>
  
 ---- 
-` Question 2: Filter Even Numbers`
+###### ` Question 2: Filter Even Numbers`
 
  Write a function filterEvens that takes any number of arguments and returns an array of all even numbers.
 
@@ -106,7 +106,7 @@ console.log(filterEvens(1, 2, 3, 4, 5, 6)); // Output: [2, 4, 6]
 </details>
  
 ---- 
-` Question 3: Group Students by Class`
+###### ` Question 3: Group Students by Class`
 
  Write a function groupByClass that takes a teacher's name and an arbitrary number of student names and returns an object grouping them.
 
@@ -161,7 +161,7 @@ console.log(groupByClass("Mithun sir", "Chandra", "Deepak", "Pinkee"));
 </details>
  
 ---- 
-` Question 4: Dynamic Product Builder`
+###### ` Question 4: Dynamic Product Builder`
 
  Write a function buildProduct that takes a product name and a varying number of product features, and returns an object containing the product details.
 
@@ -215,7 +215,7 @@ console.log(buildProduct("Laptop", "16GB RAM", "1TB SSD", "Intel i7"));
 </details>
  
 ---- 
-` Question 5: Exclude Specific Keys from Object`
+###### ` Question 5: Exclude Specific Keys from Object`
 
  Write a function excludeKeys that takes an object and specific keys to exclude, and returns a new object without those keys.
 
@@ -272,7 +272,7 @@ console.log(excludeKeys({ name: "Mithun sir", age: 30, city: "Bangalore" }, "age
 </details>
  
 ---- 
-` Question 6: Group Arguments by Type`
+###### ` Question 6: Group Arguments by Type`
 
  Write a function groupByType that takes any number of arguments and groups them into an object by their type.
 
@@ -332,7 +332,7 @@ console.log(groupByType(1, "hello", true, 42, "world"));
 </details>
  
 ---- 
-` Question 7: Combine Multiple Sets of Data`
+###### ` Question 7: Combine Multiple Sets of Data`
 
  Write a function combineData that takes a base data array and any number of additional arrays, combining all into a single array.
 
@@ -387,7 +387,7 @@ console.log(combineData([1, 2], [3, 4], [5, 6]));
 </details>
  
 ---- 
-` Question 8: Extract Specific Items from Array`
+###### ` Question 8: Extract Specific Items from Array`
 
  Write a function extractItems that takes an array and a number of indices to exclude, and returns the remaining items.
 
@@ -441,7 +441,7 @@ console.log(extractItems([10, 20, 30, 40, 50], 1, 3));
 </details>
  
 ---- 
-` Question 9: Dynamic Object Cloner`
+###### ` Question 9: Dynamic Object Cloner`
 
  Write a function cloneObject that takes an object and an arbitrary number of keys, returning a clone with only those keys.
 
@@ -500,7 +500,7 @@ console.log(cloneObject({ a: 1, b: 2, c: 3 }, "a", "c"));
 </details>
  
 ---- 
-` Question 10: Aggregate Scores for Users`
+###### ` Question 10: Aggregate Scores for Users`
 
  Write a function aggregateScores that takes a list of user scores and merges them by user.
 
