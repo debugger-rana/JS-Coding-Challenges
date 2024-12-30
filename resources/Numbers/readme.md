@@ -51,7 +51,7 @@ console.log(convertToNumber("12.34")); // 12.34
 </details>
  
 ---- 
-` Question 2: Round a number to the nearest integer`
+###### ` Question 2: Round a number to the nearest integer`
 
  Write a function that rounds a number to the nearest whole number.
 
@@ -100,7 +100,7 @@ Otherwise, it rounds down.
 </details>
  
 ---- 
-` Question 3: Working with Large Numbers: Formatting and Display`
+###### ` Question 3: Working with Large Numbers: Formatting and Display`
 
  Write a function formatLargeNumber that converts a large number into a user-friendly format (e.g., 1.5K, 3.5M).
 
@@ -167,7 +167,7 @@ console.log(formatLargeNumber(950)); // Output: "950"
 </details>
  
 ---- 
-` Question 4: Optimizing Price Calculation with Bulk Discount`
+###### ` Question 4: Optimizing Price Calculation with Bulk Discount`
 
  Write a function calculateBulkDiscount that calculates the total cost for bulk orders, applying a discount when the quantity exceeds a threshold.
 
@@ -235,7 +235,7 @@ console.log(calculateBulkDiscount(100, 20, 15, 20)); // Output: 1600
 </details>
  
 ---- 
-` Question 5: Calculating the Time Remaining for a Sale`
+###### ` Question 5: Calculating the Time Remaining for a Sale`
 
  Write a function calculateTimeRemaining that calculates the remaining time between two timestamps in hours, minutes, and seconds.
 
@@ -310,7 +310,7 @@ console.log(calculateTimeRemaining("2024-12-18T12:00:00Z", "2024-12-19T14:30:45Z
 </details>
  
 ---- 
-` Question 6: Generating a Random Number in a Range`
+###### ` Question 6: Generating a Random Number in a Range`
 
  Write a function generateRandomNumber that generates a random number between a given minimum and maximum value (inclusive).
 
@@ -366,7 +366,7 @@ console.log(generateRandomNumber(5, 15)); // Output: A random number between 5 a
 </details>
  
 ---- 
-` Question 7: Converting a Number to Binary`
+###### ` Question 7: Converting a Number to Binary`
 
  Write a function convertToBinary that converts a given number into its binary representation as a string.
 
@@ -422,7 +422,7 @@ console.log(convertToBinary(0)); // Output: "0"
 </details>
  
 ---- 
-` Question 8: Calculate Electricity Bill`
+###### ` Question 8: Calculate Electricity Bill`
 
  Write a function calculateElectricityBill that calculates the total electricity bill based on units consumed and the cost per unit.
 
@@ -475,4 +475,4 @@ console.log(calculateElectricityBill(0, 5)); // Output: 0
   
 </details>
  
----- 
+----
