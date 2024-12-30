@@ -23,6 +23,37 @@ Simply click on the link below to get started, and dive into a world of learning
 ---
 
 ### [Numbers](/resources/Numbers/)
+### [String](/resources/String/)
+### [Operators](/resources/Operators/)
+### [Type Conversion](/resources/Type_Conversion/)
+### [Maps](/resources/Maps/)
+### [Sets](/resources/Sets/)
+### [Arrays](/resources/Arrays/)
+### [Objects](/resources/Objects/)
+### [Conditionals](/resources/Conditionals/)
+### [Ternary](/resources/Ternary/)
+### [Loops](/resources/Loops/)
+### [Regular Functions](/resources/Regular_Function)
+### [Arrow Functions](/resources/Arrow_Functions/)
+### [Recursive Functions](/resources/Recursive_Functions/)
+### [Closure](/resources/Closure/)
+### [Currying](/resources/Currying/)
+### [Math](/resources/Math/)
+### [Date](/resources/Date/)
+### [Regex](/resources/Regex/)
+### [Spread](/resources/Spread/)
+### [Rest](/resources/Rest/)
+### [Destructuring](/resources/Destructuring/)
+### [Constructor Function](/resources/Constructor_Function/)
+### [Prototype](/resources/Prototype/)
+### [Error Handling](/resources/Error_Handling/)
+### [Promises](/resources/Promises/)
+### [Fetch API](/resources/Fetch_Api/)
+### [Browser APIs](/resources/)
+### [Timer Functions](/resources/Timer%20Functions/)
+### [DOM - CRUD Elements](/resources/DOM)
+### [Events](/resources/Events/)
+
 
 ---
 
