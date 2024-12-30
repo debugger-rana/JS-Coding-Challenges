@@ -1,7 +1,7 @@
 # Array
 
 
-` Question 1: Search Bar Suggestions`
+###### ` Question 1: Search Bar Suggestions`
 
  Write a function getSuggestions that takes an array of product names and a search query, then returns all product names starting with the search query.
 
@@ -64,7 +64,7 @@ console.log(suggestions); // Output: ["Shirt", "Shoes"]
 </details>
  
 ---- 
-` Question 2: Grouping Blog Posts by Categories`
+###### ` Question 2: Grouping Blog Posts by Categories`
 
  Write a function groupByCategory that takes an array of blog post objects and groups them by their categories.
 
@@ -156,7 +156,7 @@ console.log(result);
 </details>
  
 ---- 
-` Question 3: Sorting Products`
+###### ` Question 3: Sorting Products`
 
  Write a function sortProducts that sorts an array of product objects either by name (alphabetically) or price (ascending or descending).
 
@@ -248,7 +248,7 @@ console.log(sortProducts(products, "price", "desc"));
 </details>
  
 ---- 
-` Question 4: Shopping Cart Total`
+###### ` Question 4: Shopping Cart Total`
 
  Write a function calculateCartTotal that takes an array of cart items and returns the total price.
 
@@ -320,7 +320,7 @@ console.log(total); // Output: 950
 </details>
  
 ---- 
-` Question 5: Tag Frequency`
+###### ` Question 5: Tag Frequency`
 
  Write a function countTags that takes an array of tags and counts how many times each tag appears.
 
@@ -409,7 +409,7 @@ console.log(result);
 </details>
  
 ---- 
-` Question 6: Finding Common Wishlist Items`
+###### ` Question 6: Finding Common Wishlist Items`
 
  Write a function getCommonItems that takes two arrays of wishlist items and returns the common items.
 
@@ -476,7 +476,7 @@ console.log(commonItems);
 </details>
  
 ---- 
-` Question 7: Removing Duplicate Emails`
+###### ` Question 7: Removing Duplicate Emails`
 
  Write a function removeDuplicates that takes an array of emails and removes duplicate values.
 
@@ -552,7 +552,7 @@ console.log(uniqueEmails);
 </details>
  
 ---- 
-` Question 8: Highlighting Most Searched Products`
+###### ` Question 8: Highlighting Most Searched Products`
 
  Write a function mostSearched that takes an array of search terms and returns the most frequently searched product.
 
@@ -634,7 +634,7 @@ console.log(result); // Output: "Phone"
 </details>
  
 ---- 
-` Question 9: Chunking User Data`
+###### ` Question 9: Chunking User Data`
 
  Write a function chunkData that takes an array of user data and splits it into smaller chunks.
 
@@ -707,7 +707,7 @@ console.log(chunkedData);
 </details>
  
 ---- 
-` Question 10: Filtering Products by Price`
+###### ` Question 10: Filtering Products by Price`
 
   Write a function filterByPrice that filters an array of products within a given price range.
 
