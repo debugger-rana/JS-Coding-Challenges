@@ -1,6 +1,6 @@
 # Constructor Function
 
-` Question 1: ChatMessage Constructor`
+###### ` Question 1: ChatMessage Constructor`
 
  Write a ChatMessage constructor function to represent messages in a chat app. Each message should have text, sender, and timestamp. Add a method formatMessage() to return a formatted string.
 
@@ -77,7 +77,7 @@ Deepak [10:30 AM]: Hello!
 </details>
  
 ---- 
-` Question 2: Real-Time Voting System`
+###### ` Question 2: Real-Time Voting System`
 
  Create a Poll constructor function for a voting system. Each poll has a question, an array of options, and an object votes to track votes for each option. Add methods vote(option) to increment votes and getResults() to return the voting results.
 
@@ -167,7 +167,7 @@ Represents a poll with a question, options, and votes.
 </details>
  
 ---- 
-` Question 3: Multi-Language Translator`
+###### ` Question 3: Multi-Language Translator`
 
  Write a Translator constructor function that takes an object translations (key-value pairs of language codes and messages). Add a method translate(languageCode) that returns the message in the requested language.
 
@@ -242,7 +242,7 @@ Initializes with a translations object containing language codes and their corre
 </details>
  
 ---- 
-` Question 4: Notification Constructor with Priority`
+###### ` Question 4: Notification Constructor with Priority`
 
  Write a Notification constructor function for a messaging system. Each notification has message, timestamp, and priority (e.g., "low", "high"). Add a method isHighPriority() to return true if the priority is "high".
 
@@ -312,7 +312,7 @@ Defines a Notification object with a message, timestamp, and priority level.
 </details>
  
 ---- 
-` Question 5: Multi-Level Dropdown Menu`
+###### ` Question 5: Multi-Level Dropdown Menu`
 
  Create a Dropdown constructor function for multi-level dropdown menus. Each menu has label, items (array of submenus or options), and isOpen. Add methods toggle() to open/close the dropdown and render() to display the menu structure.
 

@@ -1,5 +1,5 @@
 # Date
-` Question 1:Get Current Date and Time`
+###### ` Question 1:Get Current Date and Time`
 
  Description:Write a javascript program where print the current date and time using Date object.
 `Example:`
@@ -39,7 +39,7 @@ logCurrentDate();
 </details>
  
 ---- 
-` Question 2:Get Specific Date and Time`
+###### ` Question 2:Get Specific Date and Time`
 
  Description::Write a javascript program where print the specific date and time using Date object
 
@@ -81,7 +81,7 @@ logSpecificDate();  // Calling the function
 </details>
  
 ---- 
-` Question 3:Get Current Year, Month, Date`
+###### ` Question 3:Get Current Year, Month, Date`
 
  Description:Write a javascript program where print the  year date and month using the different function of date object.
 
@@ -126,7 +126,7 @@ logCurrentDateInfo();  // Calling the function
 </details>
  
 ---- 
-` Question 4:Format Date as a String`
+###### ` Question 4:Format Date as a String`
 
  Description:Write a javascript program where print the  current date and formate the date in the readable formate.
 `Example:`
@@ -168,7 +168,7 @@ logFormattedDate();  // Calling the function
 </details>
  
 ---- 
-` Question 5:Get Day of the Week`
+###### ` Question 5:Get Day of the Week`
 
  Description:Write a javascript program where print the  day of week according to date.For this firstly find the day then  return the day of week from that.
 `Example:`
@@ -211,7 +211,7 @@ logDayOfWeek();  // Calling the function
 </details>
  
 ---- 
-` Question 6:Add Days to a Date`
+###### ` Question 6:Add Days to a Date`
 
  Description:Write a javascript program where manipulate the current date by adding some extra date and return the updated date from it.
 `Example:`
@@ -253,7 +253,7 @@ console.log(getFutureDate(5));  // Logs the date 5 days from today
 </details>
  
 ---- 
-` Question 7:Subtract Days from a Date`
+###### ` Question 7:Subtract Days from a Date`
 
  Description:Write a javascript program where manipulate the current date by subtracting some  date and return the updated date from it.
 `Example:`
@@ -299,7 +299,7 @@ console.log(updatedDate);  // Logs the updated date
 </details>
  
 ---- 
-` Question 8:Compare Dates`
+###### ` Question 8:Compare Dates`
 
  Description:Write a javascript program where create a two variable date1 date2 and took a two date and then compare it on the basis of comparison print that date1 is earlier to date2 of later to date2 or same to date2.
 `Example:`
@@ -357,7 +357,7 @@ If the dates are the same, it logs 'Both dates are the same'.
 </details>
  
 ---- 
-` Question 9: Convert Date to Timestamp (Unix Time)`
+###### ` Question 9: Convert Date to Timestamp (Unix Time)`
 
  Description:Write a javascript program where convert a Date object to a Unix timestamp (milliseconds since January 1, 1970).
 `Example:`
@@ -405,7 +405,7 @@ console.log('Timestamp:', timestamp);  // Logs the timestamp
 </details>
  
 ---- 
-` Question 10:Get Time Difference Between Two Dates`
+###### ` Question 10:Get Time Difference Between Two Dates`
 
  Description:Write a program in javascript where take two variable startDate endDate and store the two date then find dateDiffrence after that find the daysDiffrence and return the difference.
 `Example:`

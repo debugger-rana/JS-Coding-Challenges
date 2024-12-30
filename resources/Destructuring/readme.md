@@ -1,5 +1,5 @@
 # Destructuring
-` Question 1. Extract Values from an Array`
+###### ` Question 1. Extract Values from an Array`
 
   Write a program to extract specific values from an array using destructuring. For a given array, extract the first and third elements into separate variables.
 
@@ -59,7 +59,7 @@ console.log(third); // Output: 30
 </details>
  
 ---- 
-` Question 2. Swap Two Variables`
+###### ` Question 2. Swap Two Variables`
 
   Write a program to swap the values of two variables using array destructuring. The program should not use a temporary variable for swapping.
 
@@ -116,7 +116,7 @@ console.log(b); // Output: 5
 </details>
  
 ---- 
-` Question 3. Extract Properties from an Object`
+###### ` Question 3. Extract Properties from an Object`
 
   Write a program to extract specific properties from an object using destructuring. Given an object, extract the name and age properties into variables.
 
@@ -175,7 +175,7 @@ console.log(age);  // Output: 25
 </details>
  
 ---- 
-` Question 4. Default Values in Destructuring`
+###### ` Question 4. Default Values in Destructuring`
 
   Write a program to use default values in destructuring. If the property or element does not exist, assign a default value. Extract a name and gender from the object, with gender defaulting to "Unknown".
 
@@ -234,7 +234,7 @@ console.log(gender); // Output: Unknown
 </details>
  
 ---- 
-` Question 5. Nested Object Destructuring`
+###### ` Question 5. Nested Object Destructuring`
 
   Write a program to extract values from a nested object using destructuring. For a given object, extract the city property of the address.
 
@@ -294,7 +294,7 @@ console.log(gender); // Output: Unknown
 </details>
  
 ---- 
-` Question 6. Rest Operator in Array Destructuring`
+###### ` Question 6. Rest Operator in Array Destructuring`
 
   Write a program to extract values from a nested object using destructuring. For a given object, extract the city property of the address.
 
@@ -355,7 +355,7 @@ console.log(rest); // Output: [3, 4, 5]
 </details>
  
 ---- 
-` Question 7. Function Parameter Destructuring`
+###### ` Question 7. Function Parameter Destructuring`
 
   Write a program to destructure an object directly in a function’s parameters. Create a function that takes an object and extracts its name and age properties for use within the function.
 

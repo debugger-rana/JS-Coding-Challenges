@@ -1,6 +1,6 @@
 # Closure
 
-` Question 1: User Session Management`
+###### ` Question 1: User Session Management`
 
  Write a function createSessionManager that manages user sessions on a website. The session manager should allow a user to log in, log out, and retrieve the current session data.
 
@@ -69,7 +69,7 @@ The createSessionManager function creates an object to manage user sessions with
 </details>
  
 ---- 
-` Question 2: Real-Time Analytics Tracker`
+###### ` Question 2: Real-Time Analytics Tracker`
 
  Write a function createAnalyticsTracker that tracks user actions (e.g., button clicks, page views) on a website and returns the count of each activity.
 
@@ -138,7 +138,7 @@ The createAnalyticsTracker function creates an object to track events with two m
 </details>
  
 ---- 
-` Question 3: Dropdown State Manager`
+###### ` Question 3: Dropdown State Manager`
 
  Write a function createDropdownManager to manage the state (open/close) of a dropdown menu
 
@@ -202,7 +202,7 @@ The createDropdownManager function creates an object to manage the state of a dr
 </details>
  
 ---- 
-` Question 4: Secure Payment Manager`
+###### ` Question 4: Secure Payment Manager`
 
  Write a function createPaymentManager that securely manages payment initialization and confirmation without exposing sensitive logic.
 
@@ -261,7 +261,7 @@ The createPaymentManager function returns an object with two methods to manage p
 </details>
  
 ---- 
-` Question 5: Dynamic Permission System`
+###### ` Question 5: Dynamic Permission System`
 
  Write a function createPermissionManager to manage permissions dynamically based on the user role
 
@@ -328,7 +328,7 @@ The createPermissionManager function manages permissions for different user role
 </details>
  
 ---- 
-` Question 6: Notification Manager`
+###### ` Question 6: Notification Manager`
 
  Write a function createNotificationManager that allows adding and retrieving personalized notifications for a user
 
@@ -390,7 +390,7 @@ The createNotificationManager function manages a list of notifications. It provi
 </details>
  
 ---- 
-` Question 7: Dynamic Form Field Validation`
+###### ` Question 7: Dynamic Form Field Validation`
 
  Write a function createFieldValidator that validates multiple form fields with custom validation rules.
 
@@ -447,7 +447,7 @@ The createFieldValidator function creates a field validation manager with two me
 </details>
  
 ---- 
-` Question 8: Shopping Cart Manager`
+###### ` Question 8: Shopping Cart Manager`
 
  Write a function createCart that allows adding, removing, and viewing items in a shopping cart.
 
@@ -514,7 +514,7 @@ The createCart function creates a cart manager with three methods:
 </details>
  
 ---- 
-` Question 9: Auto-Increment ID Generator`
+###### ` Question 9: Auto-Increment ID Generator`
 
  Write a function createIdGenerator that generates unique IDs for new users or objects in a system.
 
@@ -573,7 +573,7 @@ The createIdGenerator function creates a simple ID generator with a method next:
 </details>
  
 ---- 
-` Question 10: Live Chat Manager`
+###### ` Question 10: Live Chat Manager`
 
  Write a function createChatManager that stores and retrieves live chat messages in a chat application.
 

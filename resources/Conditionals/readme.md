@@ -1,5 +1,5 @@
 # Conditionals
-` Question 1:Access Control System`
+###### ` Question 1:Access Control System`
 
  Description:Write a program in javascript.Where create a variable username, password and role.Write a function checkAcess .In this function define the correctUsername, correctPassword, correctRole then compare it with the function parameter.Now, function will decide the wheather the user will get the access or not.
 
@@ -85,7 +85,7 @@ checkAccess("admin", "password123", "guest");  // Invalid role
 </details>
  
 ---- 
-` Question 2:Checking if a Number is Positive, Negative, or Zero`
+###### ` Question 2:Checking if a Number is Positive, Negative, or Zero`
 
  Description:Write a program in javascript.Where take a number form prompt by the user and check that whether the number is  positive negative or zero,
 `Example:`
@@ -156,7 +156,7 @@ checkNumber();
 </details>
  
 ---- 
-` Question 3:Determining Discount Based on Age or Membership`
+###### ` Question 3:Determining Discount Based on Age or Membership`
 
  Description:Write a program in javascript.Where take a age and membership  form prompt by the user and check that how many discount user will got according to their  age and membership.
 
@@ -249,7 +249,7 @@ determineDiscount();
 </details>
  
 ---- 
-` Question 4:Form Validation`
+###### ` Question 4:Form Validation`
 
  Description:Write a program in javascript where check the user is entered the email id or not if enterned then check the correct formate for the email like it contains the @ or not in email.
 
@@ -348,7 +348,7 @@ if condition
 </details>
  
 ---- 
-` Question 5:Checking if a User is Logged In`
+###### ` Question 5:Checking if a User is Logged In`
 
  Description:Write a program in javascript where create a bool type variable isLogin and assign the value for it then create a function checkLoginStatus  to check that whether the user is login or not.
 
@@ -406,7 +406,7 @@ checkLoginStatus();
 </details>
  
 ---- 
-` Question 6:Checking if a Day is a Weekend`
+###### ` Question 6:Checking if a Day is a Weekend`
 
  Description:Write a JavaScript program that checks if a given day is a weekend (i.e., Saturday or Sunday). The program uses the Date object in JavaScript to get the day of the week and checks whether it's Saturday (6) or Sunday (0), which are considered weekend days.
 
@@ -468,7 +468,7 @@ isWeekend();
 </details>
  
 ---- 
-` Question 6:Temperature-Based Clothing Advice`
+###### ` Question 6:Temperature-Based Clothing Advice`
 
  Description:Write a JavaScript program that provides clothing advice based on the temperature. The program takes a temperature input (in Celsius) and suggests appropriate clothing like jackets, t-shirts, sweaters, or coats. Create function getClothingAdvice and define logic in it.
 
@@ -545,7 +545,7 @@ getClothingAdvice(currentTemperature);
 </details>
  
 ---- 
-` Question 8:Evaluating Exam Grades`
+###### ` Question 8:Evaluating Exam Grades`
 
  Description:Write a JavaScript program that evaluates an exam grade and provides feedback based on the score. It checks the student's grade and assigns them a letter grade (like A, B, C, etc.), along with a message about their performance.
 
@@ -624,7 +624,7 @@ evaluateGrade(examScore);
 </details>
  
 ---- 
-` Question 9:Checking Weather for an Outdoor Activity`
+###### ` Question 9:Checking Weather for an Outdoor Activity`
 
  Description:Write a JavaScript program that checks the weather and provides advice for an outdoor activity based on the temperature. Take temperature from user and function checkOutdoorActivity and pass temperature as a argument.For this example, the program will suggest whether it's good to go outside for activities like walking, running, or staying indoors depending on the temperature.
 
@@ -698,7 +698,7 @@ checkOutdoorActivity(currentTemperature);
 </details>
  
 ---- 
-` Question 10:Simple Voting Eligibility Check`
+###### ` Question 10:Simple Voting Eligibility Check`
 
  Description:write simple JavaScript program that checks if a user is eligible to vote based on their age. The program will ask for the user's age and then tell them if they are eligible to vote (in most countries, the voting age is 18 or older).
 

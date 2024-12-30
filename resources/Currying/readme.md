@@ -1,6 +1,6 @@
 # Currying
 
-` Question 1. Add Two Numbers`
+###### ` Question 1. Add Two Numbers`
 
   Write a curried function that accepts two numbers as arguments and returns their sum. The first argument is passed to the curried function, and the second argument is passed to the returned function.
 
@@ -53,7 +53,7 @@ console.log(add(5)(3)); // Output: 8
 </details>
  
 ---- 
-` Question 2. Multiply Three Numbers with currying`
+###### ` Question 2. Multiply Three Numbers with currying`
 
   Write a curried function that takes three numbers and returns their product. The curried function should handle each number step by step, with the first function accepting the first number, and the second and third functions handling the remaining numbers.
 
@@ -105,7 +105,7 @@ console.log(multiply(2)(3)(4)); // Output: 24
 </details>
  
 ---- 
-` Question 3. Calculate Power`
+###### ` Question 3. Calculate Power`
 
   Write a curried function that calculates the power of a number, where the first argument is the base, and the second is the exponent. This function should return the result of raising the base to the power of the exponent.
 
@@ -156,7 +156,7 @@ console.log(power(2)(3)); // Output: 8
 </details>
  
 ---- 
-` Question 4. String Concatenation`
+###### ` Question 4. String Concatenation`
 
   Write a curried function to concatenate two strings. The first function should accept the first string, and the second function should accept the second string. It should return the concatenated result of both strings.
 
@@ -207,7 +207,7 @@ console.log(concatStrings("Hello")("World")); // Output: "HelloWorld"
 </details>
  
 ---- 
-` Question 5. Subtract Two Numbers`
+###### ` Question 5. Subtract Two Numbers`
 
   Write a curried function that takes two numbers and returns their difference. The curried function will first accept one number, and then the second function will accept the second number to subtract from the first.
 
@@ -257,7 +257,7 @@ console.log(subtract(10)(5)); // Output: 5
 </details>
  
 ---- 
-` Question 6. Calculate Final Price After Discount and Tax`
+###### ` Question 6. Calculate Final Price After Discount and Tax`
 
   Write a curried function that calculates the final price of a product after applying a discount and then adding tax. The first function will accept the original price of the product, the second function will accept the discount rate, and the third function will accept the tax rate. The function should return the final price after applying the discount and tax.
 
