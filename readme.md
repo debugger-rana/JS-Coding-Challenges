@@ -28,7 +28,7 @@ Simply click on the link below to get started, and dive into a world of learning
 ### [Type Conversion](/resources/Type_Conversion/)
 ### [Maps](/resources/Maps/)
 ### [Sets](/resources/Sets/)
-### [Arrays](/resources/Arrays/)
+### [Arrays](/resources/Array/)
 ### [Objects](/resources/Objects/)
 ### [Conditionals](/resources/Conditionals/)
 ### [Ternary](/resources/Ternary/)
