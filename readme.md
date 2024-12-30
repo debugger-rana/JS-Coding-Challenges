@@ -22,7 +22,7 @@ Simply click on the link below to get started, and dive into a world of learning
 
 ---
 
-### [Numbers](/resources/Numbers/)
+### 1. [Numbers](/resources/Numbers/)
 ### [String](/resources/String/)
 ### [Operators](/resources/Operators/)
 ### [Type Conversion](/resources/Type_Conversion/)
@@ -40,9 +40,9 @@ Simply click on the link below to get started, and dive into a world of learning
 ### [Currying](/resources/Currying/)
 ### [Math](/resources/Math/)
 ### [Date](/resources/Date/)
-### [Regex](/resources/Regex/)
+### [Regex](/resources/RegEx/)
 ### [Spread](/resources/Spread/)
-### [Rest](/resources/Rest/)
+### [Rest](/resources/Rest_Parameter/)
 ### [Destructuring](/resources/Destructuring/)
 ### [Constructor Function](/resources/Constructor_Function/)
 ### [Prototype](/resources/Prototype/)
