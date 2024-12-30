@@ -43,7 +43,7 @@ console.log(add(5, 3)); // Output: 8
 </details>
  
 ---- 
-` Question 2. Find the Square of a Number`
+###### ` Question 2. Find the Square of a Number`
 
   Write a program using an arrow function to calculate the square of a given number.
 
@@ -89,7 +89,7 @@ console.log(square(5)); // Output: 25
 </details>
  
 ---- 
-` Question 3. Check if a Number is Even`
+###### ` Question 3. Check if a Number is Even`
 
   Write a program using an arrow function to check if a given number is even. Return true if even, otherwise false.
 
@@ -133,7 +133,7 @@ console.log(isEven(7)); // Output: false
 </details>
  
 ---- 
-` Question 4. Filter Odd Numbers from an Array`
+###### ` Question 4. Filter Odd Numbers from an Array`
 
   Write a program using an arrow function to filter odd numbers from an array.
 
@@ -177,7 +177,7 @@ console.log(filterOdds([1, 2, 3, 4, 5])); // Output: [1, 3, 5]
 </details>
  
 ---- 
-` Question 5. Convert Celsius to Fahrenheit`
+###### ` Question 5. Convert Celsius to Fahrenheit`
 
   Write a program using an arrow function to convert a given temperature in Celsius to Fahrenheit.
 
@@ -222,7 +222,7 @@ console.log(celsiusToFahrenheit(25)); // Output: 77
 </details>
  
 ---- 
-` Question 6. Enumerate a Map`
+###### ` Question 6. Enumerate a Map`
 
   Write a program using an arrow function to enumerate (loop through) a Map and print each key-value pair.
 
