@@ -1,7 +1,7 @@
 # Numbers
 
 
-` Question 1: Convert a string to a valid number`
+###### ` Question 1: Convert a string to a valid number`
 
  Write a function to convert a string containing a number (e.g., "123") into an actual number. If it is not a valid number, return NaN.
 
