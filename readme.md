@@ -22,7 +22,7 @@ Simply click on the link below to get started, and dive into a world of learning
 
 ---
 
-### [Numbers](/Numbers/)
+### [Numbers](/resources/Numbers/)
 
 ---
 
