@@ -1,7 +1,7 @@
 
 # Timer Function
 
-` Question 1:Auto-Save Function`
+###### ` Question 1:Auto-Save Function`
 
  Write a javascript program where every five minutes the input field  data  is automatically saved.
 
@@ -98,7 +98,7 @@ Timer function
 </details>
  
 ---- 
-` Question 2:Slideshow (Image Carousel)`
+###### ` Question 2:Slideshow (Image Carousel)`
 
  Write a javascript program where an array called images contains the URLs of the images you want to display.On every second display the every image of array.Create currentIndex variable that keep track of all images.
 
@@ -184,7 +184,7 @@ setInterval(showNextImage, 3000); // Change image every 3 seconds
 </details>
  
 ---- 
-` Question 3:Displaying Notifications (Delayed Alert)`
+###### ` Question 3:Displaying Notifications (Delayed Alert)`
 
  Write a javascript program  where display a notification on every 10 second. Write a function resetTimer which run on the mouse movement and any key press
 
@@ -251,7 +251,7 @@ window.addEventListener('keydown', resetTimer);
 </details>
  
 ---- 
-` Question 4:Simple Random Number Generator (with setInterval)`
+###### ` Question 4:Simple Random Number Generator (with setInterval)`
 
  Write a javascript program generates a random number every second and prints it to the console.
 
@@ -298,7 +298,7 @@ const randomNumberGenerator = setInterval(function() {
 </details>
  
 ---- 
-` Question 5:Simple Stopwatch`
+###### ` Question 5:Simple Stopwatch`
 
  Write a javascript program  program acts like a stopwatch that counts seconds from 0 upward. On every  10 second print the message on console the stopwatch is stopped.
 
@@ -357,7 +357,7 @@ const stopwatch = setInterval(function() {
 </details>
  
 ---- 
-` Question 6: Show a Welcome Message After a Delaya`
+###### ` Question 6: Show a Welcome Message After a Delaya`
 
  Create a simple JavaScript program that shows a welcome message after a delay of 5 seconds. This message should appear in the console, and it should demonstrate how to use setTimeout to delay the execution of a function.
 
@@ -412,7 +412,7 @@ setTimeout(showWelcomeMessage, 5000);
 </details>
  
 ---- 
-` Question 7: Counting Seconds`
+###### ` Question 7: Counting Seconds`
 
  This program counts down from 10 to 1 and then prints "Done!".
 
