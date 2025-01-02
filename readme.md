@@ -49,7 +49,7 @@ Simply click on the link below to get started, and dive into a world of learning
 ### 25. [Error Handling](/resources/Error_Handling/)
 ### 26. [Promises](/resources/Promises/)
 ### 27. [Fetch API](/resources/Fetch_Api/)
-### 28. [Browser APIs](/resources/)
+### 28. [Browser APIs](/resources/Browser_API/)
 ### 29. [Timer Functions](/resources/Timer_Function/)
 ### 30. [DOM - CRUD Elements](/resources/DOM/)
 ### 31. [Events](/resources/Events/)
