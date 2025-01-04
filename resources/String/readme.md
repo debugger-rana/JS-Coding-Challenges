@@ -73,7 +73,7 @@ isValidPassword(password) // Returns false as the length of password is less tha
 </details>
  
 ---- 
-`Question 2:Count word Occurance`
+###### `Question 2:Count word Occurance`
 
 Write a javascript program, create a variable count and a function countOccurance. The condition in which the function returns count value is how many time the word appears in the comment.
 
@@ -134,7 +134,8 @@ console.log(`The word ${wordToCount} appears ${count} times in the comment.`);
 -It returns the number of matches found, or 0 if no matches exist, as seen with the word "great" appearing 3 times in the comment.
   
 </details>
-`Question 3:Keyword check`
+
+###### `Question 3:Keyword check`
 
  Write a program in javascript where create a variable query by assigning some word to the variable and there is another string productDescription and search the query in the productDescription.
 
