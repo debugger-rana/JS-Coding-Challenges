@@ -1,5 +1,5 @@
 # Browser API
- ` Question 1:Save User Preferences with LocalStorage`
+ ##### ` Question 1:Save User Preferences with LocalStorage`
 
  Description:Write a program in javascript where store the theme in localStorage under the key theme.Get the current theme from local storage.Display it on the page.Prompt the user for a new theme.Update the theme in local storage.
 `Example:`
@@ -105,7 +105,7 @@ localStorage, setItem, getItem, prompt
 </details>
  
 ---- 
- ` Question 2:Simple Geolocation Example`
+ ##### ` Question 2:Simple Geolocation Example`
 
  Description:Write a program in javascript to retrieve the geographical location (latitude and longitude) of a user from their device using the Geolocation API in JavaScript. The system should fetch the user's location and display it on the console.We first check if the browser supports the Geolocation API by checking if geolocation exists in the navigator object.If not exist the system should notify the user that geolocation is unavailable.
 For example:navigator.geolocation.getCurrentPosition is used to request the user's current position
@@ -152,7 +152,7 @@ if (navigator.geolocation) { navigator.geolocation.getCurrentPosition(function(p
 </details>
  
 ---- 
- ` Question 3:Show Notifications to Users`
+ ##### ` Question 3:Show Notifications to Users`
 
  Description:Write a program in javascript to  to request permission from the user to show browser notifications, and if permission is granted, display a notification to inform the user about a new message or event. If permission is already granted, the notification should be shown immediately. If permission is denied, no notification should be shown.
 `Example:`
@@ -196,7 +196,7 @@ if (Notification.permission !== "granted") {
 </details>
  
 ---- 
- ` Question 4:Clipboard Copy Functionality`
+ ##### ` Question 4:Clipboard Copy Functionality`
 
  Description:Write a program in javascript to  to allow users to copy text to the clipboard with a simple button click. When the user clicks the "Copy to Clipboard" button, the text from an input field is copied to the system clipboard. After the text is copied, a confirmation message appears to notify the user that the operation was successful.A Text Input Field: Contains the text that the user can copy. The initial value of this text is set to "Hello World!", but the user could change it if needed.When the user clicks this button, it triggers the process of copying the text from the input field to the clipboard.
 `Example:`
@@ -250,7 +250,7 @@ Clipboard API
 </details>
  
 ---- 
- ` Question 5:Save User Data in sessionStorage`
+ ##### ` Question 5:Save User Data in sessionStorage`
 
  Description:Write a program in javascript to  store a username in the sessionStorage and on page reload retrieve it from the storage.
 `Example:`
@@ -312,7 +312,7 @@ console.log(getUsernameFromSessionStorage());
 </details>
  
 ---- 
- ` Question 6:Change URL Without Page Reload (History API)`
+ ##### ` Question 6:Change URL Without Page Reload (History API)`
 
  Description:Write a program in javascript to  change the page URL address without reloading the page.Insert the new URL in place of previous URL.  
 `Example:`
@@ -400,7 +400,7 @@ It changes the URL using history.pushState(), which updates the browser's URL wi
 </details>
  
 ---- 
- ` Question 7: Simple Countdown Timer Using setInterval`
+ ##### ` Question 7: Simple Countdown Timer Using setInterval`
 
  Description:Write a program in javascript where Initializes the countdown timer with 10 seconds in variable timeLeftSets up an interval that runs every 1000 milliseconds (1 second), executing the function inside the setInterval..Logs the current time left on the timer every second.Decreases the timer by 1 second after each iteration.When the timer reaches 0, this condition is met, and the countdown is stopped.Shows an alert box when the countdown finishes.
 `Example:`
@@ -457,7 +457,7 @@ startCountdown(10);
 </details>
  
 ---- 
- ` Question 8: Alert on Window Resize`
+ ##### ` Question 8: Alert on Window Resize`
 
  Description:Write a program listens for the window resize event and alerts the user when the window is resized.
 
@@ -499,7 +499,7 @@ window.addEventListener('resize', onWindowResize): This attaches the onWindowRes
 </details>
  
 ---- 
- ` Question 9:Detect If User is Offline/Online`
+ ##### ` Question 9:Detect If User is Offline/Online`
 
  Description:Write javascript program listens for the browser's online and offline events.
  

@@ -1,5 +1,5 @@
 # Arrow Functions
-`Question 1. Sum of Two Numbers`
+##### `Question 1. Sum of Two Numbers`
 
   Write a program using an arrow function to calculate the sum of two numbers.
 

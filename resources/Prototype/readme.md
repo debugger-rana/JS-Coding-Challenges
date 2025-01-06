@@ -328,7 +328,7 @@ console.log(authSystem.login("john_doe", "wrongpassword"));
 </details>
  
 ---- 
-`Question 4:Timer System`
+##### `Question 4:Timer System`
 
 Description:
 Start: Starts the timer.
@@ -448,7 +448,7 @@ setTimeout(() => {
 </details>
 
 ---- 
-`Question 5:Inventory System`
+##### `Question 5:Inventory System`
 
 Description:
 Create a simple Inventory System in JavaScript that allows the following operations:
@@ -580,7 +580,7 @@ inventory.removeProduct("Smartphone"); // Expected Output: "Product 'Smartphone'
 </details>
 
 ---- 
-`Question 6:Simple Calculator`
+##### `Question 6:Simple Calculator`
 
 Description:
 Implement a basic calculator using JavaScript that supports the following operations:
