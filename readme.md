@@ -47,7 +47,7 @@ Simply click on the link below to get started, and dive into a world of learning
 ### 23. [Constructor Function](/resources/Constructor_Function/)
 ### 24. [Prototype](/resources/Prototype/)
 ### 25. [Error Handling](/resources/Error_Handling/)
-### 26. [Promises](/resources/Promises/)
+### 26. [Promises](/resources/Promise/)
 ### 27. [Fetch API](/resources/Fetch_Api/)
 ### 28. [Browser APIs](/resources/Browser_API/)
 ### 29. [Timer Functions](/resources/Timer_Function/)
