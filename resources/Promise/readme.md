@@ -1,6 +1,6 @@
 # Promise
 
-` Question 1: Convert a string to a valid number`
+##### ` Question 1: Convert a string to a valid number`
 
  Write a function to convert a string containing a number (e.g., "123") into an actual number. If it is not a valid number, return NaN.
 
@@ -50,7 +50,7 @@ console.log(convertToNumber("12.34")); // 12.34
 </details>
  
 ---- 
-` Question 1. Quiz Timeout`
+##### ` Question 1. Quiz Timeout`
 
  Write a function quizWithTimeout(question, answer, timeout) that takes a question, expected answer, and timeout. If the answer is provided within the timeout, resolve with "Correct!". Otherwise, reject with "Time s up!".
 
@@ -121,7 +121,7 @@ This function handles user responses with a timeout mechanism. Depending on the 
 </details>
  
 ---- 
-` Question 2. Promise Chain Calculator`
+##### ` Question 2. Promise Chain Calculator`
 
  Write a calculator function that takes a number and returns an object with methods add, subtract, multiply, and getResult. Each method returns a promise to allow chaining.
 
@@ -206,7 +206,7 @@ Each method, such as add, subtract, etc., modifies the current value and returns
 </details>
  
 ---- 
-` Question 3. Online Food Order Status`
+##### ` Question 3. Online Food Order Status`
 
  Write a function trackOrder(orderId) that returns a promise to simulate tracking an online food order. Resolve with different statuses ("Preparing", "Out for delivery", "Delivered") at 1-second intervals.
 
@@ -274,7 +274,7 @@ The trackOrder function simulates tracking the status of an order (Preparing, Ou
 </details>
  
 ---- 
-` Question 4. Flight Booking System`
+##### ` Question 4. Flight Booking System`
 
  Write a function bookFlight(ticketDetails) that simulates a flight booking process. Return a promise that resolves after 3 seconds with the message "Booking confirmed for [Passenger Name]".
 
@@ -334,7 +334,7 @@ When you call bookFlight, it resolves with a message like:
 </details>
  
 ---- 
-` Question 5. File Upload Simulation`
+##### ` Question 5. File Upload Simulation`
 
  Write a function simulateFileUpload(fileName, size) that simulates uploading a file. Return a promise that resolves after a delay based on the file size, logging the upload progress every second.
 
@@ -407,7 +407,7 @@ The simulateFileUpload function mimics the process of uploading a file by showin
 </details>
  
 ---- 
-` Question 6. Online Movie Streaming`
+##### ` Question 6. Online Movie Streaming`
 
  Create a function streamMovie(movieName) that simulates streaming a movie. If the movie is unavailable, reject with "Movie not found". Otherwise, resolve with "Streaming [movieName]..."
 

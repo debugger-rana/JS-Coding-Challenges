@@ -184,7 +184,8 @@ console.log(formatPriceFromApiResponse(apiResponse));  // "$999.99"
 -It then returns the formatted price prefixed with a dollar sign ($).
   
 </details>
-###### ` Question 4:Storing Objects in Local Storage`
+
+###### `Question 4:Storing Objects in Local Storage`
 
  Write a program in javaScript where declare a object with variable name, age and write a program to convert it into JSON string and store it in localstorage.
 
